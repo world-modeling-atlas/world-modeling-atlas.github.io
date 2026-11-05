@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="650" viewBox="0 0 1160 650" role="img" aria-label="A developmental fMRI study tests how people learn local relations, infer a two-dimensional knowledge map, and assimilate new facts">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#187f88"/></marker></defs>
+<rect width="1160" height="650" rx="12" fill="#f6f9fa"/>
+<text x="40" y="48" fill="#183344" font-family="DejaVu Sans,Arial,sans-serif" font-size="27" font-weight="600">From local facts to a relational knowledge map</text>
+<text x="40" y="78" fill="#526876" font-family="DejaVu Sans,Arial,sans-serif" font-size="15">2026 DEVELOPMENTAL fMRI STUDY · ORIGINAL EXPLANATORY SCHEMATIC</text>
+<text x="40" y="115" fill="#526876" font-family="DejaVu Sans,Arial,sans-serif" font-size="16">203 participants, ages 8–25 · two attributes define a hidden two-dimensional structure</text>
+
+<rect x="36" y="145" width="330" height="340" rx="12" fill="#ffffff" stroke="#b4cbd0" stroke-width="2"/>
+<text x="201" y="181" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="600" fill="#187f88">1 · Learn local relations</text>
+<text x="201" y="210" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" fill="#526876">Adjacent differences only</text>
+<g fill="#e8f2f3" stroke="#187f88" stroke-width="2">
+ <circle cx="113" cy="270" r="22"/><circle cx="201" cy="270" r="22"/><circle cx="289" cy="270" r="22"/>
+ <circle cx="113" cy="352" r="22"/><circle cx="201" cy="352" r="22"/><circle cx="289" cy="352" r="22"/>
+ <circle cx="113" cy="434" r="22"/><circle cx="201" cy="434" r="22"/><circle cx="289" cy="434" r="22"/>
+</g>
+<g stroke="#187f88" stroke-width="2" fill="none" marker-end="url(#arrow)">
+ <path d="M138 270 L172 270"/><path d="M226 270 L260 270"/>
+ <path d="M113 295 L113 327"/><path d="M201 295 L201 327"/><path d="M289 295 L289 327"/>
+ <path d="M138 352 L172 352"/><path d="M226 352 L260 352"/>
+ <path d="M113 377 L113 409"/><path d="M201 377 L201 409"/><path d="M289 377 L289 409"/>
+</g>
+<text x="201" y="468" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="14" fill="#526876">Facts do not reveal the full map</text>
+
+<rect x="415" y="145" width="330" height="340" rx="12" fill="#ffffff" stroke="#b4cbd0" stroke-width="2"/>
+<text x="580" y="181" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="600" fill="#187f88">2 · Infer across dimensions</text>
+<text x="580" y="210" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" fill="#526876">Use the latent 2D structure</text>
+<g fill="#e8f2f3" stroke="#187f88" stroke-width="2">
+ <circle cx="492" cy="270" r="22"/><circle cx="580" cy="270" r="22"/><circle cx="668" cy="270" r="22"/>
+ <circle cx="492" cy="352" r="22"/><circle cx="580" cy="352" r="22"/><circle cx="668" cy="352" r="22"/>
+ <circle cx="492" cy="434" r="22"/><circle cx="580" cy="434" r="22"/><circle cx="668" cy="434" r="22"/>
+</g>
+<g stroke="#b4cbd0" stroke-width="2" fill="none"><path d="M517 270 L555 270 M605 270 L643 270 M492 295 L492 327 M580 295 L580 327 M668 295 L668 327 M517 352 L555 352 M605 352 L643 352 M492 377 L492 409 M580 377 L580 409 M668 377 L668 409"/></g>
+<path d="M506 419 L652 285" stroke="#d17b3f" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+<text x="580" y="468" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="14" fill="#526876">Nonlocal relations become answerable</text>
+
+<rect x="794" y="145" width="330" height="340" rx="12" fill="#ffffff" stroke="#b4cbd0" stroke-width="2"/>
+<text x="959" y="181" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="600" fill="#187f88">3 · Assimilate new facts</text>
+<text x="959" y="210" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" fill="#526876">Place new items, update the map</text>
+<g fill="#e8f2f3" stroke="#187f88" stroke-width="2">
+ <circle cx="871" cy="270" r="22"/><circle cx="959" cy="270" r="22"/><circle cx="1047" cy="270" r="22"/>
+ <circle cx="871" cy="352" r="22"/><circle cx="959" cy="352" r="22"/><circle cx="1047" cy="352" r="22"/>
+ <circle cx="871" cy="434" r="22"/><circle cx="959" cy="434" r="22"/><circle cx="1047" cy="434" r="22"/>
+</g>
+<g stroke="#b4cbd0" stroke-width="2" fill="none"><path d="M896 270 L934 270 M984 270 L1022 270 M871 295 L871 327 M959 295 L959 327 M1047 295 L1047 327 M896 352 L934 352 M984 352 L1022 352 M871 377 L871 409 M959 377 L959 409 M1047 377 L1047 409"/></g>
+<circle cx="959" cy="352" r="13" fill="#d17b3f" stroke="#ffffff" stroke-width="2"/>
+<path d="M871 352 L941 352 M959 270 L959 339 M977 352 L1047 352" stroke="#d17b3f" stroke-width="3" stroke-dasharray="7 5" fill="none" marker-end="url(#arrow)"/>
+<text x="959" y="468" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="14" fill="#526876">Novel facts support new inferences</text>
+
+<rect x="36" y="518" width="1088" height="92" rx="12" fill="#e8f2f3" stroke="#b4cbd0" stroke-width="2"/>
+<text x="580" y="553" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="19" font-weight="600" fill="#183344">Entorhinal grid-like codes strengthened with age and predicted inference;</text>
+<text x="580" y="583" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" fill="#526876">the study linked these developing codes to reasoning ability and knowledge assimilation</text>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="690" viewBox="0 0 1200 690" role="img" aria-labelledby="title desc">
+  <title id="title">The sensorimotor system maps a held tool in space</title>
+  <desc id="desc">An illustrated arm and held rod show sampled locations on both. A result panel summarizes a 2026 study finding comparable spatial-map accuracy for arm and tool, with uncertain changes in precision after tool use.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f7fafc"/><stop offset="1" stop-color="#edf3f6"/></linearGradient>
+    <linearGradient id="arm" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e7aa83"/><stop offset="1" stop-color="#ce805f"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#28404c" flood-opacity=".12"/></filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#55727f"/></marker>
+  </defs>
+  <rect width="1200" height="690" rx="28" fill="url(#bg)"/>
+  <text x="54" y="66" fill="#173846" font-family="Arial,sans-serif" font-size="31" font-weight="700">A held tool can enter the body’s spatial map</text>
+  <text x="56" y="101" fill="#56717c" font-family="Arial,sans-serif" font-size="17">A 2026 study compared where people felt locations on the arm and on a hand-held rod.</text>
+  <rect x="48" y="137" width="1104" height="500" rx="22" fill="#fff" filter="url(#shadow)"/>
+  <text x="84" y="184" fill="#315261" font-family="Arial,sans-serif" font-size="19" font-weight="700" letter-spacing="1">SAMPLED BODY AND TOOL LOCATIONS</text>
+  <!-- arm -->
+  <path d="M135 333 C209 300 286 284 382 282 L502 280 C539 280 557 300 553 325 C550 346 531 358 504 360 L385 371 C297 381 226 402 155 430 C128 441 107 427 99 406 C90 382 105 347 135 333Z" fill="url(#arm)"/>
+  <path d="M493 286 C530 271 562 279 582 299 L600 319 L578 347 C562 367 534 374 508 359 L532 337 L511 328 L492 337Z" fill="#d78d6b"/>
+  <text x="116" y="467" fill="#506c78" font-family="Arial,sans-serif" font-size="19" font-weight="700">ARM</text>
+  <circle cx="184" cy="331" r="8" fill="#fff" stroke="#8a4b36" stroke-width="4"/><circle cx="270" cy="309" r="8" fill="#fff" stroke="#8a4b36" stroke-width="4"/><circle cx="365" cy="299" r="8" fill="#fff" stroke="#8a4b36" stroke-width="4"/><circle cx="455" cy="297" r="8" fill="#fff" stroke="#8a4b36" stroke-width="4"/>
+  <!-- rod held in hand -->
+  <path d="M566 318 L950 264" fill="none" stroke="#527987" stroke-width="18" stroke-linecap="round"/>
+  <path d="M553 316 L583 302 L601 314 L584 335 L566 340Z" fill="#d78d6b"/>
+  <circle cx="655" cy="299" r="8" fill="#fff" stroke="#315b69" stroke-width="4"/><circle cx="757" cy="284" r="8" fill="#fff" stroke="#315b69" stroke-width="4"/><circle cx="858" cy="270" r="8" fill="#fff" stroke="#315b69" stroke-width="4"/><circle cx="939" cy="259" r="8" fill="#fff" stroke="#315b69" stroke-width="4"/>
+  <text x="860" y="319" fill="#506c78" font-family="Arial,sans-serif" font-size="19" font-weight="700">HELD ROD</text>
+  <line x1="196" y1="510" x2="936" y2="510" stroke="#aec0c8" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="443" y="541" fill="#56717c" font-family="Arial,sans-serif" font-size="16">Locations were estimated along each surface</text>
+  <!-- result cards -->
+  <rect x="79" y="563" width="491" height="54" rx="13" fill="#e8f4f3"/>
+  <text x="99" y="586" fill="#166b68" font-family="Arial,sans-serif" font-size="15" font-weight="700">SPATIAL ACCURACY</text>
+  <text x="99" y="607" fill="#284d57" font-family="Arial,sans-serif" font-size="17">Comparable maps for arm and tool</text>
+  <rect x="594" y="563" width="527" height="54" rx="13" fill="#f5f0e6"/>
+  <text x="614" y="586" fill="#9b6728" font-family="Arial,sans-serif" font-size="15" font-weight="700">AFTER TOOL USE</text>
+  <text x="614" y="607" fill="#5e4c32" font-family="Arial,sans-serif" font-size="16">Precision shifts were not significantly different from control</text>
+  <text x="84" y="660" fill="#8298a1" font-family="Arial,sans-serif" font-size="13">Conceptual illustration based on Peviani et al. (2026); no source-paper figure reproduced.</text>
+</svg>

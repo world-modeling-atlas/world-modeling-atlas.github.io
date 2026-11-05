@@ -1,0 +1,234 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 970" role="img" aria-labelledby="far-title far-desc" class="home-figure-svg">
+<title id="far-title">Systems-Level Architecture and Dynamics</title>
+<desc id="far-desc">The brain as interacting systems. Sensory areas feed dorsal and ventral streams; limbic structures such as the amygdala and cingulate tag what matters; the hippocampus binds and replays episodes; a semantic hub in the anterior temporal lobe links modality-specific spokes; control loops run through the basal ganglia, thalamus and cerebellum alongside prefrontal and parietal control networks; and a left frontotemporal network supports language. Organizing principles include streams, loops, gradients and timescales, hubs and rich clubs, and large-scale networks.</desc>
+<style>
+.hf-flow{stroke-dasharray:2 9;animation:hf-flow 2.4s linear infinite}
+.hf-flow-slow{stroke-dasharray:1.5 7;animation:hf-flow 4s linear infinite}
+.hf-pulse{animation:hf-pulse 3.2s ease-in-out infinite}
+@keyframes hf-flow{to{stroke-dashoffset:-22}}
+@keyframes hf-pulse{0%,100%{opacity:.55}50%{opacity:1}}
+@media (prefers-reduced-motion:reduce){.hf-flow,.hf-flow-slow,.hf-pulse{animation:none}}
+</style>
+<defs>
+<radialGradient id="far-bg" cx="52%" cy="46%" r="70%"><stop offset="0" stop-color="#16303a"/><stop offset=".55" stop-color="#0e1c25"/><stop offset="1" stop-color="#080f15"/></radialGradient>
+<pattern id="far-dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="12" cy="12" r=".9" fill="#ffffff" fill-opacity=".06"/></pattern>
+<filter id="far-shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000" flood-opacity=".35"/></filter>
+<filter id="far-glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="far-softglow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+<filter id="far-gyri" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB">
+  <feTurbulence type="fractalNoise" baseFrequency="0.0115 0.0165" numOctaves="2" seed="23" result="n"/>
+  <feColorMatrix in="n" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1.7 0 0 0 -.35" result="a"/>
+  <feComponentTransfer in="a" result="bands"><feFuncA type="table" tableValues="0.00 0.55 0.72 0.83 0.91 0.96 0.99 1.00 0.99 0.95 0.89 0.81 0.68 0.48 0.34 0.61 0.76 0.86 0.93 0.97 1.00 1.00 0.98 0.94 0.87 0.77 0.64 0.39 0.44 0.66 0.79 0.88 0.94 0.98 1.00 0.99 0.97 0.92 0.85 0.74 0.58 0.25 0.52 0.70 0.82 0.90 0.96 0.99 1.00 0.99 0.96 0.90 0.82 0.70 0.52 0.25 0.58 0.74 0.85 0.92 0.97 0.99 1.00 0.98 0.94 0.88 0.79 0.66 0.44 0.39 0.64 0.77 0.87 0.94 0.98 1.00 1.00 0.97 0.93 0.86 0.76 0.61 0.34 0.48 0.68 0.81 0.89 0.95 0.99 1.00 0.99 0.96 0.91 0.83 0.72 0.55 0.00"/></feComponentTransfer>
+  <feGaussianBlur in="bands" stdDeviation="1.8" result="soft"/>
+  <feDiffuseLighting in="soft" surfaceScale="6" diffuseConstant="1" lighting-color="#bfe9d6" result="diff"><feDistantLight azimuth="230" elevation="38"/></feDiffuseLighting>
+  <feSpecularLighting in="soft" surfaceScale="6" specularConstant=".7" specularExponent="22" lighting-color="#f2fff9" result="spec"><feDistantLight azimuth="230" elevation="48"/></feSpecularLighting>
+  <feComposite in="spec" in2="diff" operator="arithmetic" k1="0" k2="1" k3=".9" k4="0"/>
+</filter>
+<radialGradient id="far-cortex" cx="38%" cy="30%" r="80%"><stop offset="0" stop-color="#9fe6c3" stop-opacity=".40"/><stop offset=".6" stop-color="#3f8f7a" stop-opacity=".2"/><stop offset="1" stop-color="#173f3d" stop-opacity=".35"/></radialGradient>
+<radialGradient id="far-cereb" cx="40%" cy="30%" r="80%"><stop offset="0" stop-color="#9eeef3" stop-opacity=".6"/><stop offset="1" stop-color="#1c6c78" stop-opacity=".6"/></radialGradient>
+<linearGradient id="far-stem" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e3cf9f" stop-opacity=".5"/><stop offset=".7" stop-color="#b79c66" stop-opacity=".4"/><stop offset="1" stop-color="#b79c66" stop-opacity="0"/></linearGradient>
+<linearGradient id="far-stem-rim" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ead7a8"/><stop offset=".75" stop-color="#ead7a8" stop-opacity=".5"/><stop offset="1" stop-color="#ead7a8" stop-opacity="0"/></linearGradient>
+<marker id="far-arr0" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#82b9f0"/></marker>
+
+</defs>
+<rect width="1600" height="970" fill="url(#far-bg)"/>
+<rect width="1600" height="970" fill="url(#far-dots)"/>
+<path d="M901 921L923 856M901 921L823 945M686 831L733 864M686 831L691 772M321 150L333 248M321 150L221 227M563 38L565 23M563 38L499 85M718 395L761 335M718 395L785 430M923 856L894 796M221 227L175 214M221 227L165 323M803 604L821 608M803 604L770 549M328 506L274 504M328 506L290 413M362 334L329 372M362 334L314 287M314 287L333 248M790 721L775 718M790 721L772 726M1186 851L1119 823M1186 851L1117 824M24 93L25 71M24 93L48 78M786 233L761 335M786 233L686 159M1573 498L1458 493M1573 498L1572 634M1496 796L1531 822M1496 796L1538 780M1387 60L1386 155M1387 60L1493 57M1372 731L1441 700M1372 731L1436 690M96 747L78 771M96 747L111 780M78 771L111 780M971 559L988 542M971 559L948 540M129 801L111 780M129 801L164 776M782 873L733 864M782 873L823 945M290 413L259 369M290 413L329 372M768 487L798 491M768 487L795 466M145 48L106 91M145 48L87 31M312 727L394 655M312 727L435 739M1513 59L1493 57M1513 59L1493 156M988 542L948 540M991 641L912 608M1119 823L1117 824M949 431L906 509M949 431L856 404M912 608L948 540M201 934L233 945M201 934L236 947M906 509L948 540M1436 690L1441 700M1436 690L1452 716M578 575L597 520M578 575L510 570M333 248L417 279M597 520L553 508M775 718L772 726M478 863L403 862M478 863L416 910M636 96L686 159M416 910L403 862M416 910L368 884M1487 275L1493 267M1487 275L1396 250M1386 939L1473 885M1386 939L1436 813M565 23L499 85M489 477L447 472M489 477L536 439M503 784L435 739M233 945L236 947M1215 254L1187 201M1215 254L1126 328M25 71L48 78M761 335L852 352M776 451L785 430M776 451L795 466M160 441L149 441M160 441L159 334M536 439L553 508M1342 227L1349 234M1342 227L1396 250M164 776L111 780M1538 780L1531 822M1473 885L1436 813M1473 885L1531 822M1280 89L1386 155M165 323L159 334M165 323L129 331M1014 182L1051 173M1014 182L972 153M510 570L553 508M403 862L380 863M403 862L364 859M1123 578L1116 545M1123 578L1181 635M1116 545L1181 635M821 608L770 549M822 511L798 491M822 511L795 466M770 549L749 539M447 472L460 381M435 613L394 655M785 430L795 466M1452 716L1441 700M499 85L501 89M795 466L798 491M691 772L621 716M894 796L977 778M852 352L856 404M1396 250L1349 234M1181 635L1285 611M1572 634L1562 731M449 271L417 279M449 271L543 296M83 341L129 331M83 341L159 334M1493 156L1493 57M368 884L380 863M368 884L364 859M1386 155L1349 234M435 739L463 706M463 706L394 655M1467 405L1458 493M1467 405L1374 406M1458 493L1411 483M915 79L972 153M1229 777L1297 686M543 296L460 381M159 334L129 331M111 649L64 546M1042 719L977 778M1411 483L1374 406M1126 328L1048 329M1312 540L1285 611M1333 348L1374 406M1333 348L1251 379M1251 379L1374 406M106 91L48 78M64 546L149 441M1187 201L1051 173M972 153L1051 173M364 859L380 863M1285 611L1297 686" stroke="#9fd4d0" stroke-opacity=".07" stroke-width="1" fill="none"/>
+<g fill="#bfe8e2"><circle cx="901" cy="921" r="1.6" fill-opacity="0.14"/><circle cx="686" cy="831" r="1.1" fill-opacity="0.17"/><circle cx="321" cy="150" r="0.9" fill-opacity="0.09"/><circle cx="563" cy="38" r="1.2" fill-opacity="0.17"/><circle cx="718" cy="395" r="1.8" fill-opacity="0.22"/><circle cx="923" cy="856" r="1.1" fill-opacity="0.16"/><circle cx="221" cy="227" r="1.1" fill-opacity="0.17"/><circle cx="803" cy="604" r="1.1" fill-opacity="0.12"/><circle cx="328" cy="506" r="1.6" fill-opacity="0.25"/><circle cx="362" cy="334" r="1.5" fill-opacity="0.17"/><circle cx="314" cy="287" r="1.0" fill-opacity="0.20"/><circle cx="790" cy="721" r="1.5" fill-opacity="0.20"/><circle cx="1186" cy="851" r="1.9" fill-opacity="0.23"/><circle cx="24" cy="93" r="1.8" fill-opacity="0.22"/><circle cx="786" cy="233" r="1.4" fill-opacity="0.19"/><circle cx="1573" cy="498" r="1.1" fill-opacity="0.18"/><circle cx="1496" cy="796" r="1.0" fill-opacity="0.11"/><circle cx="1387" cy="60" r="1.6" fill-opacity="0.14"/><circle cx="1372" cy="731" r="1.5" fill-opacity="0.19"/><circle cx="96" cy="747" r="1.1" fill-opacity="0.14"/><circle cx="78" cy="771" r="1.1" fill-opacity="0.12"/><circle cx="971" cy="559" r="1.5" fill-opacity="0.12"/><circle cx="129" cy="801" r="2.2" fill-opacity="0.24"/><circle cx="782" cy="873" r="2.0" fill-opacity="0.21"/><circle cx="290" cy="413" r="1.4" fill-opacity="0.10"/><circle cx="768" cy="487" r="1.8" fill-opacity="0.18"/><circle cx="145" cy="48" r="2.0" fill-opacity="0.20"/><circle cx="312" cy="727" r="1.7" fill-opacity="0.13"/><circle cx="1513" cy="59" r="1.7" fill-opacity="0.10"/><circle cx="988" cy="542" r="1.0" fill-opacity="0.21"/><circle cx="991" cy="641" r="1.8" fill-opacity="0.19"/><circle cx="1119" cy="823" r="1.0" fill-opacity="0.13"/><circle cx="949" cy="431" r="0.8" fill-opacity="0.11"/><circle cx="912" cy="608" r="1.9" fill-opacity="0.11"/><circle cx="201" cy="934" r="2.2" fill-opacity="0.21"/><circle cx="906" cy="509" r="1.6" fill-opacity="0.11"/><circle cx="1436" cy="690" r="1.4" fill-opacity="0.15"/><circle cx="578" cy="575" r="1.8" fill-opacity="0.13"/><circle cx="333" cy="248" r="2.1" fill-opacity="0.10"/><circle cx="597" cy="520" r="1.9" fill-opacity="0.15"/><circle cx="775" cy="718" r="1.2" fill-opacity="0.13"/><circle cx="478" cy="863" r="0.9" fill-opacity="0.17"/><circle cx="636" cy="96" r="1.3" fill-opacity="0.20"/><circle cx="416" cy="910" r="1.4" fill-opacity="0.16"/><circle cx="1487" cy="275" r="1.1" fill-opacity="0.15"/><circle cx="1386" cy="939" r="1.8" fill-opacity="0.22"/><circle cx="565" cy="23" r="2.0" fill-opacity="0.17"/><circle cx="489" cy="477" r="2.0" fill-opacity="0.16"/><circle cx="503" cy="784" r="1.4" fill-opacity="0.18"/><circle cx="233" cy="945" r="1.6" fill-opacity="0.21"/><circle cx="1215" cy="254" r="1.4" fill-opacity="0.21"/><circle cx="25" cy="71" r="1.6" fill-opacity="0.10"/><circle cx="761" cy="335" r="1.5" fill-opacity="0.14"/><circle cx="776" cy="451" r="1.6" fill-opacity="0.17"/><circle cx="160" cy="441" r="2.0" fill-opacity="0.14"/><circle cx="536" cy="439" r="1.0" fill-opacity="0.22"/><circle cx="1342" cy="227" r="1.3" fill-opacity="0.13"/><circle cx="164" cy="776" r="1.6" fill-opacity="0.10"/><circle cx="1538" cy="780" r="2.1" fill-opacity="0.16"/><circle cx="1473" cy="885" r="2.0" fill-opacity="0.19"/><circle cx="1280" cy="89" r="1.3" fill-opacity="0.16"/><circle cx="165" cy="323" r="1.2" fill-opacity="0.21"/><circle cx="823" cy="945" r="1.9" fill-opacity="0.22"/><circle cx="1014" cy="182" r="1.6" fill-opacity="0.23"/><circle cx="510" cy="570" r="1.0" fill-opacity="0.16"/><circle cx="403" cy="862" r="1.2" fill-opacity="0.22"/><circle cx="1123" cy="578" r="1.4" fill-opacity="0.22"/><circle cx="1116" cy="545" r="1.1" fill-opacity="0.10"/><circle cx="821" cy="608" r="1.6" fill-opacity="0.16"/><circle cx="822" cy="511" r="2.1" fill-opacity="0.25"/><circle cx="770" cy="549" r="1.0" fill-opacity="0.13"/><circle cx="447" cy="472" r="1.0" fill-opacity="0.22"/><circle cx="435" cy="613" r="1.7" fill-opacity="0.23"/><circle cx="1117" cy="824" r="1.8" fill-opacity="0.14"/><circle cx="785" cy="430" r="1.8" fill-opacity="0.22"/><circle cx="1452" cy="716" r="1.0" fill-opacity="0.15"/><circle cx="499" cy="85" r="1.1" fill-opacity="0.17"/><circle cx="795" cy="466" r="1.8" fill-opacity="0.21"/><circle cx="798" cy="491" r="1.3" fill-opacity="0.21"/><circle cx="691" cy="772" r="1.8" fill-opacity="0.21"/><circle cx="501" cy="89" r="1.7" fill-opacity="0.18"/><circle cx="894" cy="796" r="1.2" fill-opacity="0.20"/><circle cx="852" cy="352" r="1.9" fill-opacity="0.23"/><circle cx="1396" cy="250" r="0.8" fill-opacity="0.17"/><circle cx="1230" cy="933" r="1.2" fill-opacity="0.09"/><circle cx="1181" cy="635" r="1.2" fill-opacity="0.17"/><circle cx="274" cy="504" r="1.7" fill-opacity="0.23"/><circle cx="1572" cy="634" r="1.4" fill-opacity="0.09"/><circle cx="449" cy="271" r="1.6" fill-opacity="0.17"/><circle cx="1562" cy="731" r="1.7" fill-opacity="0.13"/><circle cx="83" cy="341" r="1.4" fill-opacity="0.18"/><circle cx="1493" cy="156" r="1.8" fill-opacity="0.16"/><circle cx="1493" cy="267" r="0.9" fill-opacity="0.09"/><circle cx="417" cy="279" r="1.7" fill-opacity="0.18"/><circle cx="686" cy="159" r="2.0" fill-opacity="0.19"/><circle cx="1531" cy="822" r="2.1" fill-opacity="0.13"/><circle cx="553" cy="508" r="1.0" fill-opacity="0.09"/><circle cx="368" cy="884" r="1.7" fill-opacity="0.14"/><circle cx="1386" cy="155" r="1.6" fill-opacity="0.15"/><circle cx="1441" cy="700" r="0.9" fill-opacity="0.23"/><circle cx="435" cy="739" r="1.8" fill-opacity="0.19"/><circle cx="463" cy="706" r="1.7" fill-opacity="0.18"/><circle cx="175" cy="214" r="1.0" fill-opacity="0.24"/><circle cx="1436" cy="813" r="1.7" fill-opacity="0.13"/><circle cx="1467" cy="405" r="1.7" fill-opacity="0.19"/><circle cx="329" cy="372" r="1.9" fill-opacity="0.16"/><circle cx="1458" cy="493" r="1.7" fill-opacity="0.24"/><circle cx="915" cy="79" r="0.8" fill-opacity="0.20"/><circle cx="1229" cy="777" r="1.1" fill-opacity="0.14"/><circle cx="543" cy="296" r="1.9" fill-opacity="0.14"/><circle cx="159" cy="334" r="2.2" fill-opacity="0.17"/><circle cx="460" cy="381" r="0.8" fill-opacity="0.10"/><circle cx="1349" cy="234" r="1.3" fill-opacity="0.24"/><circle cx="394" cy="655" r="1.1" fill-opacity="0.13"/><circle cx="111" cy="780" r="1.2" fill-opacity="0.11"/><circle cx="111" cy="649" r="1.7" fill-opacity="0.11"/><circle cx="1042" cy="719" r="1.6" fill-opacity="0.23"/><circle cx="1411" cy="483" r="0.9" fill-opacity="0.23"/><circle cx="1126" cy="328" r="1.0" fill-opacity="0.22"/><circle cx="259" cy="369" r="1.5" fill-opacity="0.14"/><circle cx="948" cy="540" r="1.7" fill-opacity="0.24"/><circle cx="621" cy="716" r="0.8" fill-opacity="0.10"/><circle cx="1312" cy="540" r="1.6" fill-opacity="0.21"/><circle cx="1333" cy="348" r="0.9" fill-opacity="0.08"/><circle cx="1251" cy="379" r="1.7" fill-opacity="0.19"/><circle cx="772" cy="726" r="1.2" fill-opacity="0.24"/><circle cx="977" cy="778" r="1.1" fill-opacity="0.13"/><circle cx="106" cy="91" r="2.0" fill-opacity="0.21"/><circle cx="129" cy="331" r="1.4" fill-opacity="0.24"/><circle cx="64" cy="546" r="2.1" fill-opacity="0.15"/><circle cx="1048" cy="329" r="0.9" fill-opacity="0.17"/><circle cx="1187" cy="201" r="1.5" fill-opacity="0.09"/><circle cx="749" cy="539" r="2.0" fill-opacity="0.09"/><circle cx="856" cy="404" r="2.2" fill-opacity="0.14"/><circle cx="149" cy="441" r="1.1" fill-opacity="0.21"/><circle cx="733" cy="864" r="1.5" fill-opacity="0.13"/><circle cx="1374" cy="406" r="2.2" fill-opacity="0.09"/><circle cx="972" cy="153" r="2.0" fill-opacity="0.13"/><circle cx="364" cy="859" r="1.5" fill-opacity="0.11"/><circle cx="236" cy="947" r="1.0" fill-opacity="0.15"/><circle cx="1285" cy="611" r="2.1" fill-opacity="0.09"/><circle cx="380" cy="863" r="1.1" fill-opacity="0.20"/><circle cx="48" cy="78" r="1.7" fill-opacity="0.20"/><circle cx="1297" cy="686" r="1.8" fill-opacity="0.09"/><circle cx="1493" cy="57" r="1.7" fill-opacity="0.17"/><circle cx="87" cy="31" r="0.9" fill-opacity="0.19"/><circle cx="1051" cy="173" r="1.1" fill-opacity="0.13"/></g>
+<a href="#/chapter/architecture" class="hf-link"><title>Systems-Level Architecture and Dynamics</title>
+<circle cx="56" cy="58" r="16" fill="none" stroke="#eaf1f3" stroke-opacity=".55" stroke-width="1.6"/>
+<text x="56.0" y="64.0" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif" font-size="16" font-weight="600" fill="#eaf1f3" text-anchor="middle">2</text>
+<text x="84.0" y="70.0" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif" font-size="34" font-weight="600" fill="#eaf1f3" text-anchor="start" letter-spacing="-0.3">Systems-Level Architecture and Dynamics</text>
+</a>
+<ellipse cx="800" cy="430" rx="360" ry="270" fill="#2f8f7f" fill-opacity="0.22" filter="url(#far-softglow)"/>
+<clipPath id="far-cortex-clip"><path d="M560 470 C540 410 555 330 610 290 C670 240 760 220 840 225 C930 230 1010 270 1045 340 C1070 390 1065 450 1040 480 C1010 505 960 505 920 500 C880 520 840 545 790 548 C730 550 680 535 665 500 C655 480 640 470 620 478 C600 485 575 485 560 470 Z"/></clipPath>
+<clipPath id="far-cortex-clip-cb"><path d="M905 512 C935 497 1010 494 1045 508 C1072 528 1066 578 1032 598 C992 618 932 612 906 588 C890 568 892 528 905 512 Z"/></clipPath>
+<g transform="translate(-206.25 -125.0) scale(1.25)">
+<path d="M846 478 C836 505 826 535 832 568 C836 592 850 606 856 630 C862 660 864 700 866 770 L890 770 C890 700 894 660 898 632 C902 604 912 570 906 530 C904 505 898 488 892 478 Z" fill="url(#far-stem)" stroke="url(#far-stem-rim)" stroke-width="1.28"/>
+<path d="M905 512 C935 497 1010 494 1045 508 C1072 528 1066 578 1032 598 C992 618 932 612 906 588 C890 568 892 528 905 512 Z" fill="url(#far-cereb)" stroke="#5fd6e0" stroke-width="1.28"/>
+<g clip-path="url(#far-cortex-clip-cb)" fill="none"><path d="M880 494.0 C930 479.0 1010 481.0 1080 500.0M880 501.6 C930 486.6 1010 488.6 1080 507.6M880 509.2 C930 494.2 1010 496.2 1080 515.2M880 516.8 C930 501.8 1010 503.8 1080 522.8M880 524.4 C930 509.4 1010 511.4 1080 530.4M880 532.0 C930 517.0 1010 519.0 1080 538.0M880 539.6 C930 524.6 1010 526.6 1080 545.6M880 547.2 C930 532.2 1010 534.2 1080 553.2M880 554.8 C930 539.8 1010 541.8 1080 560.8M880 562.4 C930 547.4 1010 549.4 1080 568.4M880 570.0 C930 555.0 1010 557.0 1080 576.0M880 577.6 C930 562.6 1010 564.6 1080 583.6M880 585.2 C930 570.2 1010 572.2 1080 591.2M880 592.8 C930 577.8 1010 579.8 1080 598.8M880 600.4 C930 585.4 1010 587.4 1080 606.4M880 608.0 C930 593.0 1010 595.0 1080 614.0M880 615.6 C930 600.6 1010 602.6 1080 621.6" stroke="#08343b" stroke-opacity=".55" stroke-width="2"/><path d="M880 494.0 C930 479.0 1010 481.0 1080 500.0M880 501.6 C930 486.6 1010 488.6 1080 507.6M880 509.2 C930 494.2 1010 496.2 1080 515.2M880 516.8 C930 501.8 1010 503.8 1080 522.8M880 524.4 C930 509.4 1010 511.4 1080 530.4M880 532.0 C930 517.0 1010 519.0 1080 538.0M880 539.6 C930 524.6 1010 526.6 1080 545.6M880 547.2 C930 532.2 1010 534.2 1080 553.2M880 554.8 C930 539.8 1010 541.8 1080 560.8M880 562.4 C930 547.4 1010 549.4 1080 568.4M880 570.0 C930 555.0 1010 557.0 1080 576.0M880 577.6 C930 562.6 1010 564.6 1080 583.6M880 585.2 C930 570.2 1010 572.2 1080 591.2M880 592.8 C930 577.8 1010 579.8 1080 598.8M880 600.4 C930 585.4 1010 587.4 1080 606.4M880 608.0 C930 593.0 1010 595.0 1080 614.0M880 615.6 C930 600.6 1010 602.6 1080 621.6" transform="translate(0 -1.8)" stroke="#d9fbff" stroke-opacity=".3" stroke-width="1"/></g>
+<path d="M560 470 C540 410 555 330 610 290 C670 240 760 220 840 225 C930 230 1010 270 1045 340 C1070 390 1065 450 1040 480 C1010 505 960 505 920 500 C880 520 840 545 790 548 C730 550 680 535 665 500 C655 480 640 470 620 478 C600 485 575 485 560 470 Z" fill="url(#far-cortex)"/>
+<g clip-path="url(#far-cortex-clip)"><rect x="520" y="200" width="580" height="380" filter="url(#far-gyri)" opacity=".34" style="mix-blend-mode:screen"/><path d="M560 470 C540 410 555 330 610 290 C670 240 760 220 840 225 C930 230 1010 270 1045 340 C1070 390 1065 450 1040 480 C1010 505 960 505 920 500 C880 520 840 545 790 548 C730 550 680 535 665 500 C655 480 640 470 620 478 C600 485 575 485 560 470 Z" fill="none" stroke="#04130f" stroke-opacity=".55" stroke-width="34" filter="url(#far-softglow)"/></g>
+<g fill="none" stroke-linecap="round"><path d="M650 478 C700 452 760 440 830 420 C848 414 858 404 866 392" stroke="#03100c" stroke-opacity=".45" stroke-width="3"/><path d="M650 478 C700 452 760 440 830 420 C848 414 858 404 866 392" transform="translate(-1.4 -1.6)" stroke="#d8fff0" stroke-opacity=".25" stroke-width="1.1"/><path d="M690 512 C760 498 840 486 910 466" stroke="#03100c" stroke-opacity=".45" stroke-width="3"/><path d="M690 512 C760 498 840 486 910 466" transform="translate(-1.4 -1.6)" stroke="#d8fff0" stroke-opacity=".25" stroke-width="1.1"/><path d="M836 226 C822 280 800 320 792 360 C786 390 772 410 762 430" stroke="#03100c" stroke-opacity=".45" stroke-width="3"/><path d="M836 226 C822 280 800 320 792 360 C786 390 772 410 762 430" transform="translate(-1.4 -1.6)" stroke="#d8fff0" stroke-opacity=".25" stroke-width="1.1"/><path d="M1010 440 C990 452 970 470 960 492" stroke="#03100c" stroke-opacity=".45" stroke-width="3"/><path d="M1010 440 C990 452 970 470 960 492" transform="translate(-1.4 -1.6)" stroke="#d8fff0" stroke-opacity=".25" stroke-width="1.1"/></g>
+<path d="M560 470 C540 410 555 330 610 290 C670 240 760 220 840 225 C930 230 1010 270 1045 340 C1070 390 1065 450 1040 480 C1010 505 960 505 920 500 C880 520 840 545 790 548 C730 550 680 535 665 500 C655 480 640 470 620 478 C600 485 575 485 560 470 Z" fill="none" stroke="#7fd8aa" stroke-opacity=".7" stroke-width="1.44" filter="url(#far-glow)"/>
+</g>
+<g transform="translate(-206.25 -125.0) scale(1.25)" stroke-linecap="round">
+<a href="#/article/architecture/sensory-systems" class="hf-link"><title>Sensory systems</title>
+<ellipse cx="1036" cy="430" rx="20" ry="32" fill="#82b9f0" fill-opacity=".45" stroke="#82b9f0" stroke-width="1.12" filter="url(#far-glow)"/>
+<ellipse cx="822" cy="462" rx="22" ry="8" transform="rotate(-14 822 462)" fill="#82b9f0" fill-opacity=".45" stroke="#82b9f0" stroke-width="1.12"/>
+<path d="M858 232 C846 290 826 330 818 368 C812 396 800 414 792 430" stroke="#82b9f0" stroke-opacity=".28" stroke-width="4.80" fill="none"/>
+</a>
+<a href="#/article/architecture/streams" class="hf-link"><title>Streams</title>
+<path d="M1024 404 C990 330 900 286 800 276" stroke="#82b9f0" stroke-width="2.08" fill="none" marker-end="url(#far-arr0)"/><path d="M1024 404 C990 330 900 286 800 276" stroke="#e8f4ff" stroke-width="1.60" fill="none" class="hf-flow" opacity=".7"/>
+<path d="M1024 456 C962 500 862 506 748 514" stroke="#82b9f0" stroke-width="2.08" fill="none" marker-end="url(#far-arr0)"/><path d="M1024 456 C962 500 862 506 748 514" stroke="#e8f4ff" stroke-width="1.60" fill="none" class="hf-flow" opacity=".7"/>
+</a>
+<a href="#/article/architecture/the-limbic-system" class="hf-link"><title>The limbic system</title>
+<path d="M680 332 C740 302 840 298 900 318 C930 330 950 350 958 372" stroke="#f29ab4" stroke-opacity=".4" stroke-width="5.60" fill="none"/>
+<ellipse cx="742" cy="500" rx="13" ry="10" fill="#f29ab4" fill-opacity=".85" filter="url(#far-glow)"/>
+</a>
+<a href="#/article/architecture/control-systems" class="hf-link"><title>Control systems</title>
+<path d="M708 396 C700 362 730 336 772 336 C822 336 868 348 898 370 C920 386 928 410 920 434 C916 444 906 442 908 432 C912 412 904 394 886 382 C858 364 818 356 780 358 C752 360 736 374 738 396 C740 414 718 418 708 396 Z" fill="#5fd6e0" fill-opacity=".35" stroke="#5fd6e0" stroke-width="1.12"/>
+<ellipse cx="842" cy="418" rx="30" ry="20" transform="rotate(-15 842 418)" fill="#e9e2d0" fill-opacity=".75" stroke="#f2ead6" stroke-width="0.80"/>
+<path d="M640 330 C660 360 700 380 724 384 M790 400 C808 408 820 412 830 414 M846 398 C820 330 720 300 652 322" stroke="#5fd6e0" stroke-width="1.60" fill="none" class="hf-flow" opacity=".9"/>
+<path d="M640 330 L930 320 M568 410 L640 330" stroke="#5fd6e0" stroke-width="1.28" stroke-dasharray="3.20 4.00" opacity=".8" fill="none"/>
+<circle cx="640" cy="330" r="9" fill="#5fd6e0" filter="url(#far-glow)" class="hf-pulse"/>
+<circle cx="568" cy="410" r="9" fill="#5fd6e0" filter="url(#far-glow)" class="hf-pulse"/>
+<circle cx="930" cy="320" r="9" fill="#5fd6e0" filter="url(#far-glow)" class="hf-pulse"/>
+</a>
+<a href="#/article/architecture/the-episodic-memory-system" class="hf-link"><title>The episodic memory system</title>
+<path d="M748 500 C744 486 756 474 776 476 C808 478 840 470 864 456 C880 446 892 432 890 420 C896 424 900 440 892 456 C874 482 836 496 800 500 C780 503 766 512 756 512 C750 512 748 506 748 500 Z" fill="#f3a66c" fill-opacity=".85" stroke="#ffd7b8" stroke-width="0.96" filter="url(#far-glow)"/>
+</a>
+<a href="#/article/architecture/the-semantic-memory-system" class="hf-link"><title>The semantic memory system</title>
+<path d="M686 506 L1036 430" stroke="#c3e27f" stroke-width="1.12" opacity=".75" fill="none"/><circle cx="1036" cy="430" r="4" fill="#c3e27f"/>
+<path d="M686 506 L822 462" stroke="#c3e27f" stroke-width="1.12" opacity=".75" fill="none"/><circle cx="822" cy="462" r="4" fill="#c3e27f"/>
+<path d="M686 506 L820 300" stroke="#c3e27f" stroke-width="1.12" opacity=".75" fill="none"/><circle cx="820" cy="300" r="4" fill="#c3e27f"/>
+<path d="M686 506 L620 380" stroke="#c3e27f" stroke-width="1.12" opacity=".75" fill="none"/><circle cx="620" cy="380" r="4" fill="#c3e27f"/>
+<path d="M686 506 L930 330" stroke="#c3e27f" stroke-width="1.12" opacity=".75" fill="none"/><circle cx="930" cy="330" r="4" fill="#c3e27f"/>
+<circle cx="686" cy="506" r="11" fill="#c3e27f" filter="url(#far-glow)" class="hf-pulse"/>
+</a>
+<a href="#/article/architecture/the-linguistic-system" class="hf-link"><title>The linguistic system</title>
+<path d="M634 444 C680 368 860 360 904 452" stroke="#f6c95c" stroke-width="2.40" fill="none" opacity=".9"/><path d="M634 444 C680 368 860 360 904 452" stroke="#fff3cf" stroke-width="1.60" fill="none" class="hf-flow" opacity=".6"/>
+<circle cx="634" cy="444" r="12" fill="#f6c95c" fill-opacity=".85" filter="url(#far-glow)"/>
+<circle cx="904" cy="452" r="12" fill="#f6c95c" fill-opacity=".85" filter="url(#far-glow)"/>
+</a>
+</g>
+<text x="996.2" y="247.5" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif" font-size="12.5" font-weight="400" fill="#82b9f0" text-anchor="middle" font-style="italic">dorsal stream</text>
+<text x="1031.2" y="485.0" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif" font-size="12.5" font-weight="400" fill="#82b9f0" text-anchor="middle" font-style="italic">ventral stream</text>
+<text x="846.2" y="402.5" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif" font-size="12.5" font-weight="400" fill="#3d3424" text-anchor="middle" font-style="italic">thalamus</text>
+<text x="1025.0" y="665.0" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif" font-size="12.5" font-weight="400" fill="#5fd6e0" text-anchor="middle" font-style="italic">cerebellum</text>
+<a href="#/article/architecture/control-systems" class="hf-link"><title>Control Systems</title>
+<rect x="32" y="108" width="330" height="236" rx="14" fill="#132029" fill-opacity="0.82" stroke="#ffffff" stroke-opacity=".09" filter="url(#far-shadow)"/>
+<path d="M46 108.75H348" stroke="#ffffff" stroke-opacity=".14" stroke-width="1.2"/>
+<rect x="32" y="126" width="3" height="200" rx="1.5" fill="#5fd6e0" filter="url(#far-glow)"/>
+<text x="56.0" y="144.0" font-family="'IBM Plex Mono',ui-monospace,Menlo,monospace" font-size="13" font-weight="600" fill="#5fd6e0" text-anchor="start" letter-spacing="1.8">CONTROL</text>
+<text x="56.0" y="174.0" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif" font-size="22" font-weight="600" fill="#eaf1f3" text-anchor="start">Control Systems</text>
+<text x="56.0" y="202.0" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif" font-size="15" font-weight="400" fill="#9fb2bb" text-anchor="start">Loops through basal ganglia and</text>
+<text x="56.0" y="223.0" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif" font-size="15" font-weight="400" fill="#9fb2bb" text-anchor="start">cerebellum; attention networks.</text>
+</a>
+<a href="#/article/architecture/cortico-basal-ganglia-thalamo-cortical-loops" class="hf-link"><title>Basal ganglia–thalamus loops</title>
+<text x="56.0" y="268.0" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif" font-size="13.5" font-weight="400" fill="#eaf1f3" text-anchor="start" opacity="0.85">→ Basal ganglia–thalamus loops</text>
+</a>
+<a href="#/article/architecture/frontoparietal-control-multiple-demand-network" class="hf-link"><title>Frontoparietal control network</title>
+<text x="56.0" y="290.0" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif" font-size="13.5" font-weight="400" fill="#eaf1f3" text-anchor="start" opacity="0.85">→ Frontoparietal control network</text>
+</a>
+<a href="#/article/architecture/rostrolateral-prefrontal-cortex-the-neural-frontier" class="hf-link"><title>Rostrolateral PFC</title>
+<text x="56.0" y="312.0" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif" font-size="13.5" font-weight="400" fill="#eaf1f3" text-anchor="start" opacity="0.85">→ Rostrolateral PFC</text>
+</a>
+<path d="M362.0 168.0 C477.9 168.0 477.9 287.5 593.8 287.5" stroke="#5fd6e0" stroke-width="1.4" fill="none" opacity=".7"/>
+<circle cx="593.8" cy="287.5" r="8" fill="none" stroke="#5fd6e0" stroke-width="1.4" opacity=".8"/><circle cx="593.8" cy="287.5" r="3.2" fill="#5fd6e0" filter="url(#far-glow)"/>
+<a href="#/article/architecture/the-limbic-system" class="hf-link"><title>The Limbic System</title>
+<rect x="32" y="358" width="330" height="236" rx="14" fill="#132029" fill-opacity="0.82" stroke="#ffffff" stroke-opacity=".09" filter="url(#far-shadow)"/>
+<path d="M46 358.75H348" stroke="#ffffff" stroke-opacity=".14" stroke-width="1.2"/>
+<rect x="32" y="376" width="3" height="200" rx="1.5" fill="#f29ab4" filter="url(#far-glow)"/>
+<text x="56.0" y="394.0" font-family="'IBM Plex Mono',ui-monospace,Menlo,monospace" font-size="13" font-weight="600" fill="#f29ab4" text-anchor="start" letter-spacing="1.8">VALUE AND EMOTION</text>
+<text x="56.0" y="424.0" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif" font-size="22" font-weight="600" fill="#eaf1f3" text-anchor="start">The Limbic System</text>
+<text x="56.0" y="452.0" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif" font-size="15" font-weight="400" fill="#9fb2bb" text-anchor="start">Structures that tag what matters</text>
+<text x="56.0" y="473.0" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif" font-size="15" font-weight="400" fill="#9fb2bb" text-anchor="start">and colour memory with feeling.</text>
+</a>
+<path d="M362.0 418.0 C541.6 418.0 541.6 500.0 721.2 500.0" stroke="#f29ab4" stroke-width="1.4" fill="none" opacity=".7"/>
+<circle cx="721.2" cy="500.0" r="8" fill="none" stroke="#f29ab4" stroke-width="1.4" opacity=".8"/><circle cx="721.2" cy="500.0" r="3.2" fill="#f29ab4" filter="url(#far-glow)"/>
+<a href="#/article/architecture/the-semantic-memory-system" class="hf-link"><title>Semantic Memory</title>
+<rect x="32" y="608" width="330" height="236" rx="14" fill="#132029" fill-opacity="0.82" stroke="#ffffff" stroke-opacity=".09" filter="url(#far-shadow)"/>
+<path d="M46 608.75H348" stroke="#ffffff" stroke-opacity=".14" stroke-width="1.2"/>
+<rect x="32" y="626" width="3" height="200" rx="1.5" fill="#c3e27f" filter="url(#far-glow)"/>
+<text x="56.0" y="644.0" font-family="'IBM Plex Mono',ui-monospace,Menlo,monospace" font-size="13" font-weight="600" fill="#c3e27f" text-anchor="start" letter-spacing="1.8">KNOWLEDGE</text>
+<text x="56.0" y="674.0" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif" font-size="22" font-weight="600" fill="#eaf1f3" text-anchor="start">Semantic Memory</text>
+<text x="56.0" y="702.0" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif" font-size="15" font-weight="400" fill="#9fb2bb" text-anchor="start">A hub in the anterior temporal lobe</text>
+<text x="56.0" y="723.0" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif" font-size="15" font-weight="400" fill="#9fb2bb" text-anchor="start">links modality-specific spokes.</text>
+</a>
+<a href="#/article/architecture/hubs-and-spokes-along-a-principal-cortical-gradient" class="hf-link"><title>Hubs and spokes</title>
+<text x="56.0" y="768.0" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif" font-size="13.5" font-weight="400" fill="#eaf1f3" text-anchor="start" opacity="0.85">→ Hubs and spokes</text>
+</a>
+<a href="#/article/architecture/graph-theoretic-properties-of-semantic-memories" class="hf-link"><title>Graph-theoretic properties</title>
+<text x="56.0" y="790.0" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif" font-size="13.5" font-weight="400" fill="#eaf1f3" text-anchor="start" opacity="0.85">→ Graph-theoretic properties</text>
+</a>
+<a href="#/article/architecture/episodes-and-semantics-their-overlap-cooperation-and-distinctions" class="hf-link"><title>Episodes and semantics</title>
+<text x="56.0" y="812.0" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif" font-size="13.5" font-weight="400" fill="#eaf1f3" text-anchor="start" opacity="0.85">→ Episodes and semantics</text>
+</a>
+<path d="M362.0 668.0 C506.6 668.0 506.6 507.5 651.2 507.5" stroke="#c3e27f" stroke-width="1.4" fill="none" opacity=".7"/>
+<circle cx="651.2" cy="507.5" r="8" fill="none" stroke="#c3e27f" stroke-width="1.4" opacity=".8"/><circle cx="651.2" cy="507.5" r="3.2" fill="#c3e27f" filter="url(#far-glow)"/>
+<a href="#/article/architecture/sensory-systems" class="hf-link"><title>Sensory Systems</title>
+<rect x="1238" y="108" width="330" height="236" rx="14" fill="#132029" fill-opacity="0.82" stroke="#ffffff" stroke-opacity=".09" filter="url(#far-shadow)"/>
+<path d="M1252 108.75H1554" stroke="#ffffff" stroke-opacity=".14" stroke-width="1.2"/>
+<rect x="1238" y="126" width="3" height="200" rx="1.5" fill="#82b9f0" filter="url(#far-glow)"/>
+<text x="1262.0" y="144.0" font-family="'IBM Plex Mono',ui-monospace,Menlo,monospace" font-size="13" font-weight="600" fill="#82b9f0" text-anchor="start" letter-spacing="1.8">INPUT</text>
+<text x="1262.0" y="174.0" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif" font-size="22" font-weight="600" fill="#eaf1f3" text-anchor="start">Sensory Systems</text>
+<text x="1262.0" y="202.0" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif" font-size="15" font-weight="400" fill="#9fb2bb" text-anchor="start">How each sense samples and</text>
+<text x="1262.0" y="223.0" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif" font-size="15" font-weight="400" fill="#9fb2bb" text-anchor="start">encodes the world.</text>
+</a>
+<rect x="1262" y="250" width="137" height="22" rx="11" fill="#3a3010" stroke="#8a7020"/>
+<text x="1272.0" y="265.0" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif" font-size="12" font-weight="500" fill="#f0d77a" text-anchor="start">Under construction</text>
+<path d="M1238.0 168.0 C1163.4 168.0 1163.4 412.5 1088.8 412.5" stroke="#82b9f0" stroke-width="1.4" fill="none" opacity=".7"/>
+<circle cx="1088.8" cy="412.5" r="8" fill="none" stroke="#82b9f0" stroke-width="1.4" opacity=".8"/><circle cx="1088.8" cy="412.5" r="3.2" fill="#82b9f0" filter="url(#far-glow)"/>
+<a href="#/article/architecture/the-linguistic-system" class="hf-link"><title>The Linguistic System</title>
+<rect x="1238" y="358" width="330" height="236" rx="14" fill="#132029" fill-opacity="0.82" stroke="#ffffff" stroke-opacity=".09" filter="url(#far-shadow)"/>
+<path d="M1252 358.75H1554" stroke="#ffffff" stroke-opacity=".14" stroke-width="1.2"/>
+<rect x="1238" y="376" width="3" height="200" rx="1.5" fill="#f6c95c" filter="url(#far-glow)"/>
+<text x="1262.0" y="394.0" font-family="'IBM Plex Mono',ui-monospace,Menlo,monospace" font-size="13" font-weight="600" fill="#f6c95c" text-anchor="start" letter-spacing="1.8">LANGUAGE</text>
+<text x="1262.0" y="424.0" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif" font-size="22" font-weight="600" fill="#eaf1f3" text-anchor="start">The Linguistic System</text>
+<text x="1262.0" y="452.0" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif" font-size="15" font-weight="400" fill="#9fb2bb" text-anchor="start">A left frontotemporal network for</text>
+<text x="1262.0" y="473.0" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif" font-size="15" font-weight="400" fill="#9fb2bb" text-anchor="start">comprehension and production.</text>
+</a>
+<path d="M1238.0 418.0 C1080.9 418.0 1080.9 440.0 923.8 440.0" stroke="#f6c95c" stroke-width="1.4" fill="none" opacity=".7"/>
+<circle cx="923.8" cy="440.0" r="8" fill="none" stroke="#f6c95c" stroke-width="1.4" opacity=".8"/><circle cx="923.8" cy="440.0" r="3.2" fill="#f6c95c" filter="url(#far-glow)"/>
+<a href="#/article/architecture/the-episodic-memory-system" class="hf-link"><title>Episodic Memory</title>
+<rect x="1238" y="608" width="330" height="236" rx="14" fill="#132029" fill-opacity="0.82" stroke="#ffffff" stroke-opacity=".09" filter="url(#far-shadow)"/>
+<path d="M1252 608.75H1554" stroke="#ffffff" stroke-opacity=".14" stroke-width="1.2"/>
+<rect x="1238" y="626" width="3" height="200" rx="1.5" fill="#f3a66c" filter="url(#far-glow)"/>
+<text x="1262.0" y="644.0" font-family="'IBM Plex Mono',ui-monospace,Menlo,monospace" font-size="13" font-weight="600" fill="#f3a66c" text-anchor="start" letter-spacing="1.8">EPISODES</text>
+<text x="1262.0" y="674.0" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif" font-size="22" font-weight="600" fill="#eaf1f3" text-anchor="start">Episodic Memory</text>
+<text x="1262.0" y="702.0" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif" font-size="15" font-weight="400" fill="#9fb2bb" text-anchor="start">The hippocampus and its partners</text>
+<text x="1262.0" y="723.0" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif" font-size="15" font-weight="400" fill="#9fb2bb" text-anchor="start">bind events and replay them.</text>
+</a>
+<a href="#/article/architecture/the-trisynaptic-loop" class="hf-link"><title>The trisynaptic loop</title>
+<text x="1262.0" y="768.0" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif" font-size="13.5" font-weight="400" fill="#eaf1f3" text-anchor="start" opacity="0.85">→ The trisynaptic loop</text>
+</a>
+<a href="#/article/architecture/a-modern-view-of-the-hippocampus" class="hf-link"><title>A modern view of the hippocampus</title>
+<text x="1262.0" y="790.0" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif" font-size="13.5" font-weight="400" fill="#eaf1f3" text-anchor="start" opacity="0.85">→ A modern view of the hippocampus</text>
+</a>
+<a href="#/article/architecture/network-dynamics" class="hf-link"><title>Network dynamics</title>
+<text x="1262.0" y="812.0" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif" font-size="13.5" font-weight="400" fill="#eaf1f3" text-anchor="start" opacity="0.85">→ Network dynamics</text>
+</a>
+<path d="M1238.0 668.0 C1034.6 668.0 1034.6 477.5 831.2 477.5" stroke="#f3a66c" stroke-width="1.4" fill="none" opacity=".7"/>
+<circle cx="831.2" cy="477.5" r="8" fill="none" stroke="#f3a66c" stroke-width="1.4" opacity=".8"/><circle cx="831.2" cy="477.5" r="3.2" fill="#f3a66c" filter="url(#far-glow)"/>
+<line x1="32" y1="872" x2="1568" y2="872" stroke="#ffffff" stroke-opacity=".1"/>
+<a href="#/article/architecture/whole-brain-architecture-and-information-flow" class="hf-link"><title>Whole-brain architecture and information flow</title>
+<text x="40.0" y="902.0" font-family="'IBM Plex Mono',ui-monospace,Menlo,monospace" font-size="14" font-weight="600" fill="#eaf1f3" text-anchor="start" letter-spacing="2.2">WHOLE-BRAIN ARCHITECTURE AND INFORMATION FLOW</text>
+</a>
+<a href="#/article/architecture/broad-subdivisions-and-evolutionary-layering" class="hf-link"><title>Broad subdivisions</title>
+<rect x="40" y="918" width="162" height="30" rx="15.0" fill="#132029" fill-opacity=".85" stroke="#ffffff" stroke-opacity="0.12"/>
+<text x="53.0" y="938.0" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif" font-size="14" font-weight="500" fill="#eaf1f3" text-anchor="start">Broad subdivisions</text>
+</a>
+<a href="#/article/architecture/cortical-architecture" class="hf-link"><title>Cortical architecture</title>
+<rect x="212.08" y="918" width="185" height="30" rx="15.0" fill="#132029" fill-opacity=".85" stroke="#ffffff" stroke-opacity="0.12"/>
+<text x="225.1" y="938.0" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif" font-size="14" font-weight="500" fill="#eaf1f3" text-anchor="start">Cortical architecture</text>
+</a>
+<a href="#/article/architecture/cortical-subdivisions-and-white-matter-highways" class="hf-link"><title>White-matter highways</title>
+<rect x="406.84000000000003" y="918" width="185" height="30" rx="15.0" fill="#132029" fill-opacity=".85" stroke="#ffffff" stroke-opacity="0.12"/>
+<text x="419.8" y="938.0" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif" font-size="14" font-weight="500" fill="#eaf1f3" text-anchor="start">White-matter highways</text>
+</a>
+<a href="#/article/architecture/streams" class="hf-link"><title>Streams</title>
+<rect x="601.6" y="918" width="79" height="30" rx="15.0" fill="#132029" fill-opacity=".85" stroke="#ffffff" stroke-opacity="0.12"/>
+<text x="614.6" y="938.0" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif" font-size="14" font-weight="500" fill="#eaf1f3" text-anchor="start">Streams</text>
+</a>
+<a href="#/article/architecture/loops" class="hf-link"><title>Loops</title>
+<rect x="690.52" y="918" width="64" height="30" rx="15.0" fill="#132029" fill-opacity=".85" stroke="#ffffff" stroke-opacity="0.12"/>
+<text x="703.5" y="938.0" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif" font-size="14" font-weight="500" fill="#eaf1f3" text-anchor="start">Loops</text>
+</a>
+<a href="#/article/architecture/macroscale-gradients-and-intrinsic-neural-timescales" class="hf-link"><title>Gradients &amp; timescales</title>
+<rect x="764.3199999999999" y="918" width="192" height="30" rx="15.0" fill="#132029" fill-opacity=".85" stroke="#ffffff" stroke-opacity="0.12"/>
+<text x="777.3" y="938.0" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif" font-size="14" font-weight="500" fill="#eaf1f3" text-anchor="start">Gradients &amp; timescales</text>
+</a>
+<a href="#/article/architecture/hub-and-spoke-architecture-and-rich-club-organization" class="hf-link"><title>Hubs &amp; rich club</title>
+<rect x="966.64" y="918" width="147" height="30" rx="15.0" fill="#132029" fill-opacity=".85" stroke="#ffffff" stroke-opacity="0.12"/>
+<text x="979.6" y="938.0" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif" font-size="14" font-weight="500" fill="#eaf1f3" text-anchor="start">Hubs &amp; rich club</text>
+</a>
+<a href="#/article/architecture/large-scale-networks" class="hf-link"><title>Large-scale networks</title>
+<rect x="1123.6" y="918" width="177" height="30" rx="15.0" fill="#132029" fill-opacity=".85" stroke="#ffffff" stroke-opacity="0.12"/>
+<text x="1136.6" y="938.0" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif" font-size="14" font-weight="500" fill="#eaf1f3" text-anchor="start">Large-scale networks</text>
+</a>
+<a href="#/article/architecture/broader-characteristics" class="hf-link"><title>Broader characteristics</title>
+<rect x="1310.8" y="918" width="200" height="30" rx="15.0" fill="#132029" fill-opacity=".85" stroke="#ffffff" stroke-opacity="0.12"/>
+<text x="1323.8" y="938.0" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif" font-size="14" font-weight="500" fill="#eaf1f3" text-anchor="start">Broader characteristics</text>
+</a>
+</svg>

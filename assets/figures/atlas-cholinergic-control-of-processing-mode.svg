@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="570" viewBox="0 0 1100 570" role="img" aria-label="Cholinergic control of processing mode">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#187f88"/></marker></defs>
+<rect width="1100" height="570" rx="12" fill="#f6f9fa"/>
+<text x="38" y="48" fill="#183344" font-family="DejaVu Sans,Arial,sans-serif" font-size="27" font-weight="600">Cholinergic control of processing mode</text>
+<text x="38" y="77" fill="#526876" font-family="DejaVu Sans,Arial,sans-serif" font-size="15">CONCEPTUAL SCHEMATIC · WORLD MODELING ATLAS</text>
+<rect x="50.0" y="150" width="313.3333333333333" height="335" rx="12" fill="white" stroke="#b4cbd0" stroke-width="2"/>
+<text x="206.66666666666666" y="188" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="21" font-weight="600" fill="#187f88">External evidence</text>
+<text x="206.66666666666666" y="253" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="normal" fill="#526876">Greater influence of</text>
+<text x="206.66666666666666" y="278" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="normal" fill="#526876">sensory inputs</text>
+<rect x="393.3333333333333" y="150" width="313.3333333333333" height="335" rx="12" fill="white" stroke="#b4cbd0" stroke-width="2"/>
+<text x="550.0" y="188" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="21" font-weight="600" fill="#187f88">Recurrent dynamics</text>
+<text x="550.0" y="253" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="normal" fill="#526876">Internal activity is</text>
+<text x="550.0" y="278" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="normal" fill="#526876">modulated</text>
+<rect x="736.6666666666666" y="150" width="313.3333333333333" height="335" rx="12" fill="white" stroke="#b4cbd0" stroke-width="2"/>
+<text x="893.3333333333333" y="188" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="21" font-weight="600" fill="#187f88">Plasticity</text>
+<text x="893.3333333333333" y="253" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="normal" fill="#526876">Learning windows depend on</text>
+<text x="893.3333333333333" y="278" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="normal" fill="#526876">state</text>
+<text x="550" y="530" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="normal" fill="#526876">Complementary mechanisms or distinctions; not measured relative magnitudes.</text>
+</svg>

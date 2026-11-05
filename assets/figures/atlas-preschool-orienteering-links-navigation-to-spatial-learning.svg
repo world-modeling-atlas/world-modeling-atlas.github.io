@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="600" viewBox="0 0 1100 600" role="img" aria-label="A 12-week randomized preschool study compared spatially demanding orienteering with aerobic exercise">
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#187f88"/></marker>
+</defs>
+<rect width="1100" height="600" rx="12" fill="#f6f9fa"/>
+<text x="40" y="48" fill="#183344" font-family="DejaVu Sans,Arial,sans-serif" font-size="27" font-weight="600">Spatial learning through active navigation</text>
+<text x="40" y="78" fill="#526876" font-family="DejaVu Sans,Arial,sans-serif" font-size="15">2026 PRESCHOOL STUDY · ORIGINAL EXPLANATORY SCHEMATIC</text>
+
+<rect x="42" y="112" width="1016" height="54" rx="10" fill="#e8f2f3" stroke="#b4cbd0" stroke-width="2"/>
+<text x="550" y="146" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="600" fill="#183344">90 children aged 4–5 with lower spatial-visualization scores · randomly assigned · 12 weeks</text>
+
+<rect x="58" y="204" width="445" height="150" rx="12" fill="#ffffff" stroke="#187f88" stroke-width="2.5"/>
+<text x="280" y="240" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="21" font-weight="600" fill="#187f88">Orienteering</text>
+<text x="280" y="280" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" fill="#526876">Physical activity plus spatial demands</text>
+<text x="280" y="309" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" fill="#526876">Read a map · orient · plan a route</text>
+
+<rect x="597" y="204" width="445" height="150" rx="12" fill="#ffffff" stroke="#b4cbd0" stroke-width="2.5"/>
+<text x="820" y="240" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="21" font-weight="600" fill="#526876">Aerobic exercise</text>
+<text x="820" y="280" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" fill="#526876">Physical activity comparison</text>
+<text x="820" y="309" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" fill="#526876">Running · rope skipping</text>
+
+<text x="550" y="388" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" fill="#526876">Pre- and post-intervention mental-rotation task and fNIRS</text>
+<path d="M 280 360 C 280 380 390 380 430 410" stroke="#187f88" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 820 360 C 820 380 710 380 670 410" stroke="#8ba3aa" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+
+<rect x="70" y="421" width="450" height="125" rx="12" fill="#e8f2f3" stroke="#187f88" stroke-width="2"/>
+<text x="295" y="458" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="600" fill="#187f88">Greater improvement after orienteering</text>
+<text x="295" y="493" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" fill="#526876">Mental-rotation accuracy</text>
+<text x="295" y="520" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="14" fill="#526876">Compared with aerobic exercise alone</text>
+
+<rect x="580" y="421" width="450" height="125" rx="12" fill="#ffffff" stroke="#b4cbd0" stroke-width="2"/>
+<text x="805" y="458" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="600" fill="#187f88">Neural measures also changed</text>
+<text x="805" y="493" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" fill="#526876">Lower task-evoked activation in L-DLPFC and VAC</text>
+<text x="805" y="520" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" fill="#526876">Stronger task-related functional connectivity</text>
+</svg>

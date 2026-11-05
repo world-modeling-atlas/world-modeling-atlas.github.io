@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Causal knowledge helps young children choose useful questions</title>
+  <desc id="desc">A 2026 study tested 144 children aged 5 to 7. After hearing about an event with an unknown cause, children either chose a useful question or generated one. Even the youngest used real-world causal knowledge to guide both; efficient question asking improved with age.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f7fafc"/><stop offset="1" stop-color="#edf3f6"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#28404c" flood-opacity=".12"/></filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#67838f"/></marker>
+  </defs>
+  <rect width="1200" height="680" rx="28" fill="url(#bg)"/>
+  <text x="54" y="65" fill="#173846" font-family="Arial,sans-serif" font-size="30" font-weight="700">Causal knowledge helps children ask more useful questions</text>
+  <text x="56" y="99" fill="#56717c" font-family="Arial,sans-serif" font-size="17">A 2026 study tested how 5- to 7-year-olds search for the cause of an event.</text>
+  <rect x="48" y="132" width="1104" height="504" rx="22" fill="#fff" filter="url(#shadow)"/>
+  <rect x="82" y="171" width="1036" height="100" rx="17" fill="#f1f6f7"/>
+  <circle cx="143" cy="221" r="29" fill="#fff" stroke="#bed0d6" stroke-width="2"/>
+  <text x="143" y="228" text-anchor="middle" fill="#315261" font-family="Arial,sans-serif" font-size="21" font-weight="700">?</text>
+  <text x="194" y="211" fill="#315261" font-family="Arial,sans-serif" font-size="19" font-weight="700">An event happened; its cause is unknown.</text>
+  <text x="194" y="240" fill="#59737d" font-family="Arial,sans-serif" font-size="16">Children use what they already know about the world to search for informative evidence.</text>
+  <line x1="600" y1="277" x2="600" y2="307" stroke="#67838f" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="82" y="323" width="486" height="192" rx="18" fill="#eaf4f2" stroke="#bddbd5" stroke-width="2"/>
+  <text x="112" y="363" fill="#236e68" font-family="Arial,sans-serif" font-size="18" font-weight="700">EXPERIMENT 1 · SELECT</text>
+  <text x="112" y="395" fill="#3c6268" font-family="Arial,sans-serif" font-size="16">Choose which question would best reveal</text>
+  <text x="112" y="420" fill="#3c6268" font-family="Arial,sans-serif" font-size="16">what caused the event.</text>
+  <rect x="112" y="443" width="405" height="43" rx="12" fill="#fff"/>
+  <text x="133" y="471" fill="#43716c" font-family="Arial,sans-serif" font-size="15">Select the most informative question</text>
+  <rect x="632" y="323" width="486" height="192" rx="18" fill="#f3eef8" stroke="#d8c9e5" stroke-width="2"/>
+  <text x="662" y="363" fill="#755295" font-family="Arial,sans-serif" font-size="18" font-weight="700">EXPERIMENT 2 · GENERATE</text>
+  <text x="662" y="395" fill="#655877" font-family="Arial,sans-serif" font-size="16">Create a question from scratch to find</text>
+  <text x="662" y="420" fill="#655877" font-family="Arial,sans-serif" font-size="16">the event’s cause.</text>
+  <rect x="662" y="443" width="405" height="43" rx="12" fill="#fff"/>
+  <text x="683" y="471" fill="#755f89" font-family="Arial,sans-serif" font-size="15">Generate a useful question independently</text>
+  <rect x="82" y="538" width="1036" height="66" rx="16" fill="#f6f2e9"/>
+  <text x="112" y="567" fill="#8a672f" font-family="Arial,sans-serif" font-size="16" font-weight="700">RESULT · 144 CHILDREN AGES 5–7</text>
+  <text x="112" y="591" fill="#7b6d50" font-family="Arial,sans-serif" font-size="15">Even the youngest used real-world causal knowledge in both tasks; efficient question asking improved with age.</text>
+  <text x="82" y="628" fill="#8298a1" font-family="Arial,sans-serif" font-size="13">Original explanatory schematic based on Lapidow, Stein, Thomas &amp; Walker (2026); prompts are illustrative, not study items.</text>
+</svg>

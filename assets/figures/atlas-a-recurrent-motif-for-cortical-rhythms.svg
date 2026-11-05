@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="570" viewBox="0 0 1100 570" role="img" aria-label="A recurrent motif for cortical rhythms">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#187f88"/></marker></defs>
+<rect width="1100" height="570" rx="12" fill="#f6f9fa"/>
+<text x="38" y="48" fill="#183344" font-family="DejaVu Sans,Arial,sans-serif" font-size="27" font-weight="600">A recurrent motif for cortical rhythms</text>
+<text x="38" y="77" fill="#526876" font-family="DejaVu Sans,Arial,sans-serif" font-size="15">CONCEPTUAL SCHEMATIC · WORLD MODELING ATLAS</text>
+<rect x="90" y="135" width="400" height="165" rx="12" fill="white" stroke="#b4cbd0" stroke-width="2"/>
+<text x="290.0" y="173" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="21" font-weight="600" fill="#187f88">Pyramidal activity</text>
+<text x="290.0" y="238" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="normal" fill="#526876">Excites local interneurons</text>
+<rect x="610" y="135" width="400" height="165" rx="12" fill="white" stroke="#b4cbd0" stroke-width="2"/>
+<text x="810.0" y="173" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="21" font-weight="600" fill="#187f88">Interneuron activity</text>
+<text x="810.0" y="238" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="normal" fill="#526876">Produces inhibition</text>
+<rect x="610" y="345" width="400" height="165" rx="12" fill="white" stroke="#b4cbd0" stroke-width="2"/>
+<text x="810.0" y="383" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="21" font-weight="600" fill="#187f88">Suppressed excitation</text>
+<text x="810.0" y="448" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="normal" fill="#526876">Pyramidal firing is reduced</text>
+<rect x="90" y="345" width="400" height="165" rx="12" fill="white" stroke="#b4cbd0" stroke-width="2"/>
+<text x="290.0" y="383" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="21" font-weight="600" fill="#187f88">Recovery</text>
+<text x="290.0" y="448" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="normal" fill="#526876">Excitation can rise again</text>
+<path d="M 495 218 L 602 218" stroke="#187f88" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 810 305 L 810 338" stroke="#187f88" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 605 427 L 498 427" stroke="#187f88" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 290 339 L 290 306" stroke="#187f88" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="570" viewBox="0 0 1100 570" role="img" aria-label="Fast and slow cholinergic signaling">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#187f88"/></marker></defs>
+<rect width="1100" height="570" rx="12" fill="#f6f9fa"/>
+<text x="38" y="48" fill="#183344" font-family="DejaVu Sans,Arial,sans-serif" font-size="27" font-weight="600">Fast and slow cholinergic signaling</text>
+<text x="38" y="77" fill="#526876" font-family="DejaVu Sans,Arial,sans-serif" font-size="15">CONCEPTUAL SCHEMATIC · WORLD MODELING ATLAS</text>
+<rect x="50.0" y="150" width="485.0" height="335" rx="12" fill="white" stroke="#b4cbd0" stroke-width="2"/>
+<text x="292.5" y="188" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="21" font-weight="600" fill="#187f88">Nicotinic receptors</text>
+<text x="292.5" y="253" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="normal" fill="#526876">Ion channels supporting rapid effects</text>
+<rect x="565.0" y="150" width="485.0" height="335" rx="12" fill="white" stroke="#b4cbd0" stroke-width="2"/>
+<text x="807.5" y="188" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="21" font-weight="600" fill="#187f88">Muscarinic receptors</text>
+<text x="807.5" y="253" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="normal" fill="#526876">G-protein pathways with slower modulation</text>
+<text x="550" y="530" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="normal" fill="#526876">Complementary mechanisms or distinctions; not measured relative magnitudes.</text>
+</svg>

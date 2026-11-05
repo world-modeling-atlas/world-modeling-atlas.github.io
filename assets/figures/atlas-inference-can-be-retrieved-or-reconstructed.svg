@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="570" viewBox="0 0 1120 570" role="img" aria-label="A developmental inference study distinguishes iterative retrieval from direct retrieval of a learned relationship">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#187f88"/></marker></defs>
+<rect width="1120" height="570" rx="12" fill="#f6f9fa"/>
+<text x="40" y="48" fill="#183344" font-family="DejaVu Sans,Arial,sans-serif" font-size="27" font-weight="600">Inference can be reconstructed or directly retrieved</text>
+<text x="40" y="78" fill="#526876" font-family="DejaVu Sans,Arial,sans-serif" font-size="15">2026 DEVELOPMENTAL fMRI PREPRINT · ORIGINAL EXPLANATORY SCHEMATIC</text>
+<text x="40" y="115" fill="#526876" font-family="DejaVu Sans,Arial,sans-serif" font-size="16">Learn two premises, then infer a relation that was never directly presented</text>
+
+<rect x="42" y="142" width="502" height="350" rx="12" fill="#ffffff" stroke="#b4cbd0" stroke-width="2"/>
+<text x="293" y="181" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="22" font-weight="600" fill="#187f88">Iterative retrieval</text>
+<text x="293" y="210" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" fill="#526876">Reconstruct the link when asked</text>
+<rect x="82" y="250" width="160" height="64" rx="10" fill="#e8f2f3" stroke="#187f88" stroke-width="2"/>
+<text x="162" y="290" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="600" fill="#183344">A — B</text>
+<rect x="344" y="250" width="160" height="64" rx="10" fill="#e8f2f3" stroke="#187f88" stroke-width="2"/>
+<text x="424" y="290" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="600" fill="#183344">B — C</text>
+<text x="293" y="346" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" fill="#526876">Retrieve each premise and combine them</text>
+<path d="M162 320 C162 360 242 365 273 383" stroke="#187f88" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M424 320 C424 360 344 365 313 383" stroke="#187f88" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="213" y="392" width="160" height="60" rx="10" fill="#ffffff" stroke="#d17b3f" stroke-width="2.5"/>
+<text x="293" y="430" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="600" fill="#b6612d">Infer A — C</text>
+<text x="293" y="472" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="14" fill="#526876">Hippocampal activity tracked this process at both ages</text>
+
+<rect x="576" y="142" width="502" height="350" rx="12" fill="#ffffff" stroke="#b4cbd0" stroke-width="2"/>
+<text x="827" y="181" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="22" font-weight="600" fill="#187f88">Direct retrieval</text>
+<text x="827" y="210" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" fill="#526876">Access the integrated relation</text>
+<rect x="616" y="250" width="160" height="64" rx="10" fill="#e8f2f3" stroke="#b4cbd0" stroke-width="2"/>
+<text x="696" y="290" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="600" fill="#183344">A — B</text>
+<rect x="878" y="250" width="160" height="64" rx="10" fill="#e8f2f3" stroke="#b4cbd0" stroke-width="2"/>
+<text x="958" y="290" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="600" fill="#183344">B — C</text>
+<path d="M696 325 C696 355 739 356 765 364 M958 325 C958 355 915 356 889 364" stroke="#b4cbd0" stroke-width="2" fill="none"/>
+<rect x="747" y="360" width="160" height="60" rx="10" fill="#e8f2f3" stroke="#187f88" stroke-width="2.5"/>
+<text x="827" y="398" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="600" fill="#187f88">A — C</text>
+<path d="M827 425 L827 452" stroke="#187f88" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<text x="827" y="476" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="14" fill="#526876">Angular-gyrus activity predicted direct retrieval in adults</text>
+
+<text x="560" y="535" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="14" fill="#526876">Conceptual computation diagrams; brain labels summarize correlational fMRI results.</text>
+</svg>

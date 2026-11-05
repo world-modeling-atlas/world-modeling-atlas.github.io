@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="570" viewBox="0 0 1100 570" role="img" aria-label="From social signals to context-dependent action">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#187f88"/></marker></defs>
+<rect width="1100" height="570" rx="12" fill="#f6f9fa"/>
+<text x="38" y="48" fill="#183344" font-family="DejaVu Sans,Arial,sans-serif" font-size="27" font-weight="600">From social signals to context-dependent action</text>
+<text x="38" y="77" fill="#526876" font-family="DejaVu Sans,Arial,sans-serif" font-size="15">CONCEPTUAL SCHEMATIC · WORLD MODELING ATLAS</text>
+<rect x="50.0" y="190" width="223.75" height="220" rx="12" fill="white" stroke="#b4cbd0" stroke-width="2"/>
+<text x="161.875" y="228" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="21" font-weight="600" fill="#187f88">Social encounter</text>
+<text x="161.875" y="293" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="normal" fill="#526876">Sensory and</text>
+<text x="161.875" y="318" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="normal" fill="#526876">contextual cues</text>
+<path d="M 277.75 298 L 302.75 298" stroke="#187f88" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="308.75" y="190" width="223.75" height="220" rx="12" fill="white" stroke="#b4cbd0" stroke-width="2"/>
+<text x="420.625" y="228" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="21" font-weight="600" fill="#187f88">Internal state</text>
+<text x="420.625" y="293" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="normal" fill="#526876">Peptide and other</text>
+<text x="420.625" y="318" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="normal" fill="#526876">modulatory</text>
+<text x="420.625" y="343" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="normal" fill="#526876">influences</text>
+<path d="M 536.5 298 L 561.5 298" stroke="#187f88" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="567.5" y="190" width="223.75" height="220" rx="12" fill="white" stroke="#b4cbd0" stroke-width="2"/>
+<text x="679.375" y="228" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="21" font-weight="600" fill="#187f88">Circuit response</text>
+<text x="679.375" y="293" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="normal" fill="#526876">Attention, memory</text>
+<text x="679.375" y="318" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="normal" fill="#526876">and motivation</text>
+<path d="M 795.25 298 L 820.25 298" stroke="#187f88" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="826.25" y="190" width="223.75" height="220" rx="12" fill="white" stroke="#b4cbd0" stroke-width="2"/>
+<text x="938.125" y="228" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="21" font-weight="600" fill="#187f88">Behavior</text>
+<text x="938.125" y="293" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="normal" fill="#526876">A context-dependent</text>
+<text x="938.125" y="318" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="normal" fill="#526876">social action</text>
+<text x="550" y="490" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="normal" fill="#526876">Read as a conceptual sequence; details and qualifications are in the text.</text>
+</svg>

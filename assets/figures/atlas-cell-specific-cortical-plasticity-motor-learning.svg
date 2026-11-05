@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="690" viewBox="0 0 1200 690" role="img" aria-labelledby="title desc">
+  <title id="title">Cell-specific cortical plasticity shapes motor timing learning</title>
+  <desc id="desc">An original schematic of a 2026 mouse study: blocking CaMKII-dependent plasticity in premotor cortex impaired learning to delay a lick after a cue, while execution of a learned action remained intact. Distinct pyramidal tract subtypes and intratelencephalic neurons contributed complementary effects on cortical dynamics.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f7fafc"/><stop offset="1" stop-color="#edf3f6"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#28404c" flood-opacity=".12"/></filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#67838f"/></marker>
+  </defs>
+  <rect width="1200" height="690" rx="28" fill="url(#bg)"/>
+  <text x="54" y="65" fill="#173846" font-family="Arial,sans-serif" font-size="30" font-weight="700">Different cortical cell types shape learning in different ways</text>
+  <text x="56" y="99" fill="#56717c" font-family="Arial,sans-serif" font-size="17">A 2026 mouse study causally linked premotor plasticity to learning when to act.</text>
+  <rect x="48" y="132" width="1104" height="500" rx="22" fill="#fff" filter="url(#shadow)"/>
+  <rect x="80" y="170" width="455" height="405" rx="18" fill="#f1f6f7"/>
+  <text x="108" y="211" fill="#315261" font-family="Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="1">TASK AND CAUSAL TEST</text>
+  <rect x="112" y="242" width="112" height="58" rx="13" fill="#e7eef2" stroke="#b9cbd2" stroke-width="2"/>
+  <text x="168" y="277" text-anchor="middle" fill="#365664" font-family="Arial,sans-serif" font-size="17" font-weight="700">Cue</text>
+  <line x1="230" y1="271" x2="281" y2="271" stroke="#67838f" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="292" y="242" width="112" height="58" rx="13" fill="#e9f3ef" stroke="#bdd8cb" stroke-width="2"/>
+  <text x="348" y="277" text-anchor="middle" fill="#3e6a58" font-family="Arial,sans-serif" font-size="17" font-weight="700">Delay</text>
+  <line x1="410" y1="271" x2="457" y2="271" stroke="#67838f" stroke-width="3" marker-end="url(#arrow)"/>
+  <circle cx="481" cy="271" r="24" fill="#f4e4dd" stroke="#d6977c" stroke-width="2"/>
+  <text x="481" y="277" text-anchor="middle" fill="#875842" font-family="Arial,sans-serif" font-size="14" font-weight="700">lick</text>
+  <text x="112" y="333" fill="#59737d" font-family="Arial,sans-serif" font-size="15">Mice learned a longer delay between cue and action.</text>
+  <rect x="112" y="363" width="390" height="84" rx="14" fill="#eaf4f2"/>
+  <text x="136" y="394" fill="#236e68" font-family="Arial,sans-serif" font-size="17" font-weight="700">During learning</text>
+  <text x="136" y="421" fill="#3c6268" font-family="Arial,sans-serif" font-size="15">CaMKII inhibition impaired learning the delay.</text>
+  <rect x="112" y="462" width="390" height="84" rx="14" fill="#f4eff8"/>
+  <text x="136" y="493" fill="#755295" font-family="Arial,sans-serif" font-size="17" font-weight="700">After learning</text>
+  <text x="136" y="520" fill="#625476" font-family="Arial,sans-serif" font-size="15">The same manipulation spared action execution.</text>
+  <line x1="540" y1="374" x2="590" y2="374" stroke="#67838f" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="604" y="170" width="516" height="405" rx="18" fill="#fbfafc" stroke="#e2dbe8" stroke-width="2"/>
+  <text x="634" y="211" fill="#513d68" font-family="Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="1">COMPLEMENTARY CELL-TYPE ROLES</text>
+  <rect x="640" y="244" width="213" height="127" rx="15" fill="#e9f2f5" stroke="#c4d9df" stroke-width="2"/>
+  <text x="746" y="278" text-anchor="middle" fill="#315c6b" font-family="Arial,sans-serif" font-size="17" font-weight="700">PT subtypes</text>
+  <text x="746" y="307" text-anchor="middle" fill="#4e6f79" font-family="Arial,sans-serif" font-size="14">Plasticity shaped</text>
+  <text x="746" y="329" text-anchor="middle" fill="#4e6f79" font-family="Arial,sans-serif" font-size="14">timing-related dynamics</text>
+  <text x="746" y="351" text-anchor="middle" fill="#4e6f79" font-family="Arial,sans-serif" font-size="14">needed for delay learning</text>
+  <rect x="870" y="244" width="220" height="127" rx="15" fill="#f2edf7" stroke="#dbcee7" stroke-width="2"/>
+  <text x="980" y="278" text-anchor="middle" fill="#70538a" font-family="Arial,sans-serif" font-size="17" font-weight="700">IT neurons</text>
+  <text x="980" y="307" text-anchor="middle" fill="#746483" font-family="Arial,sans-serif" font-size="14">Plasticity helped reduce</text>
+  <text x="980" y="329" text-anchor="middle" fill="#746483" font-family="Arial,sans-serif" font-size="14">the dimensionality of</text>
+  <text x="980" y="351" text-anchor="middle" fill="#746483" font-family="Arial,sans-serif" font-size="14">cortical activity</text>
+  <path d="M747 386 C747 425 827 425 827 453" fill="none" stroke="#8da4ad" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M980 386 C980 425 879 425 879 453" fill="none" stroke="#8da4ad" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="700" y="462" width="340" height="72" rx="16" fill="#fff" stroke="#cbd8dd" stroke-width="2"/>
+  <text x="870" y="492" text-anchor="middle" fill="#315261" font-family="Arial,sans-serif" font-size="16" font-weight="700">Premotor cortical dynamics</text>
+  <text x="870" y="516" text-anchor="middle" fill="#5f7780" font-family="Arial,sans-serif" font-size="14">reconfigured to anticipate action timing</text>
+  <text x="82" y="612" fill="#8298a1" font-family="Arial,sans-serif" font-size="13">Original schematic based on Majumder et al. (2026). Mechanistic findings come from a mouse premotor-cortex task.</text>
+</svg>
