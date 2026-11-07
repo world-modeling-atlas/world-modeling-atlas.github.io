@@ -216,7 +216,7 @@ function about() {
   const overview = '<figure class="home-figure" id="home-figure" aria-label="Objectives and Optimization Architecture"></figure>';
   // Fundamentals and Architecture first, then the overview (objectives and optimization), then the rest.
   const chapters = CHAPTER_FIGURES.slice(0, 2).map(fig).join('') + overview + CHAPTER_FIGURES.slice(2).map(fig).join('');
-  main.innerHTML = `${tabs('about')}<div class="content-body"><p class="home-intro">This is a live document that describes the brain as an ML system. It is a work in progress, but much of its content is complete (especially the <a href="#/chapter/learning">Learning</a> section, which is likely the most interesting and far-reaching of all).</p>${chapters}<p class="placeholder">[Placeholder: guide readers through how to read these notes.]</p><p class="placeholder">[Placeholder: describe the methodology.]</p></div>`;
+  main.innerHTML = `${tabs('about')}<div class="content-body"><p class="home-intro">This is a live document that describes the brain as an ML system. It assumes a basic understanding of neuroscience. It is a work in progress, but much of its content is complete (especially the <a href="#/chapter/learning">Learning</a> section, which is likely the most interesting and far-reaching of all).</p>${chapters}<p class="placeholder">[Placeholder: guide readers through how to read these notes.]</p><p class="placeholder">[Placeholder: describe the methodology.]</p></div>`;
   loadHomeFigure();
   loadChapterFigures();
 }
