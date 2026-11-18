@@ -209,6 +209,39 @@ function loadChapterFigures() {
     });
   }
 }
+function summaryFigure() {
+  const image = '<img class="summary-image" src="assets/atlas-summary.svg?v=2" alt="Atlas overview. The fundamentals connect cells and synapses to neural representations. Architecture links perception, memory and action. Learning covers objectives, optimization, development, cognitive theories and principles. Special topics include intelligence, personality and consciousness.">';
+  const chapters = [
+    ['fundamentals', 'The fundamentals'],
+    ['architecture', 'Architecture and dynamics'],
+    ['learning', 'Learning'],
+    ['special-topics', 'Special topics'],
+  ];
+  const links = chapters.map(([id, title]) =>
+    `<a class="summary-chapter chapter-${id}" href="#/chapter/${id}" aria-label="Open ${title}"></a>`).join('');
+  const learningTopics = [
+    ['objectives', 'Objectives'], ['optimization', 'Optimization'],
+    ['development', 'Development'], ['theories', 'Cognitive theories'], ['principles', 'Learning principles'],
+  ];
+  const topicLinks = learningTopics.map(([id, title]) =>
+    `<a class="summary-topic topic-${id}" href="#/group/${id}" aria-label="Open ${title}"></a>`).join('');
+  return `<figure class="atlas-summary">
+    <button type="button" class="summary-open" aria-haspopup="dialog" aria-label="Expand the Atlas overview">
+      ${image}<span class="summary-expand" aria-hidden="true">↗ &nbsp; Explore the figure</span>
+    </button>
+    <dialog class="summary-dialog" aria-label="Atlas overview">
+      <div class="summary-tools"><span>Explore a chapter or learning topic</span>
+        <button type="button" class="summary-close" autofocus>Close</button>
+      </div>
+      <div class="summary-map">${image}<nav aria-label="Chapters in the overview">${links}${topicLinks}</nav></div>
+    </dialog>
+  </figure>`;
+}
+function bindSummaryFigure() {
+  const dialog = $('.summary-dialog');
+  $('.summary-open').addEventListener('click', () => dialog.showModal());
+  $('.summary-close').addEventListener('click', () => dialog.close());
+}
 function about() {
   navRender();
   document.title = SITE;
@@ -216,7 +249,8 @@ function about() {
   const overview = '<figure class="home-figure" id="home-figure" aria-label="Objectives and Optimization Architecture"></figure>';
   // Fundamentals and Architecture first, then the overview (objectives and optimization), then the rest.
   const chapters = CHAPTER_FIGURES.slice(0, 2).map(fig).join('') + overview + CHAPTER_FIGURES.slice(2).map(fig).join('');
-  main.innerHTML = `${tabs('about')}<div class="content-body"><p class="home-intro">This is a live document that describes the brain as an ML system. It assumes a basic understanding of neuroscience. It is a work in progress, but much of its content is complete (especially the <a href="#/chapter/learning">Learning</a> section, which is likely the most interesting and far-reaching of all).</p>${chapters}<p class="placeholder">[Placeholder: guide readers through how to read these notes.]</p><p class="placeholder">[Placeholder: describe the methodology.]</p></div>`;
+  main.innerHTML = `${tabs('about')}<div class="content-body">${summaryFigure()}<p class="home-intro">This is a live document that describes the brain as an ML system. It assumes a basic understanding of neuroscience. It is a work in progress, but much of its content is complete (especially the <a href="#/chapter/learning">Learning</a> section, which is likely the most interesting and far-reaching of all).</p>${chapters}<p class="placeholder">[Placeholder: guide readers through how to read these notes.]</p><p class="placeholder">[Placeholder: describe the methodology.]</p></div>`;
+  bindSummaryFigure();
   loadHomeFigure();
   loadChapterFigures();
 }

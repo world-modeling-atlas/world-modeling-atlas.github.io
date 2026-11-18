@@ -57,3 +57,87 @@ html[data-theme=dark] .uc-note{background:#2a2310;color:#f0dfa6}
 /* larger contents and tabs */.sidebar-heading{font-size:17px}.nav-link{font-size:14px}.depth-0>.nav-row>.nav-link,.kind-chapter .kind-group>.nav-row>.nav-link{font-size:15.5px}.nav-toggle{height:30px}.nav-toggle::before{top:11px}.page-tabs{font-size:15.5px;height:42px}.page-tabs a{padding:10px 0 9px}
 .brand{display:flex;align-items:center;gap:12px}.brand-logo{width:44px;height:44px;flex:none}@media(max-width:720px){.brand-logo{width:32px;height:32px}}
 .site-footer{font-size:13px}.site-footer a{color:var(--muted)}
+
+/* The compact overview has landscape and portrait compositions in the same SVG. */
+.atlas-summary {
+  --summary-ratio: 1120 / 594;
+  --summary-width-per-height: 1.8855;
+  margin: 0 0 20px;
+}
+.summary-open {
+  display: grid;
+  justify-items: end;
+  width: min(100%, calc((100svh - 205px) * var(--summary-width-per-height)));
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: zoom-in;
+}
+.summary-image {
+  display: block;
+  width: 100%;
+  aspect-ratio: var(--summary-ratio);
+  border-radius: 10px;
+}
+.summary-expand { margin-top: 4px; color: var(--muted); font-size: 13px }
+.summary-open:hover .summary-expand { text-decoration: underline }
+.summary-dialog {
+  width: fit-content;
+  max-width: calc(100vw - 16px);
+  max-height: calc(100dvh - 16px);
+  margin: auto;
+  padding: 8px;
+  border: 1px solid #42565e;
+  border-radius: 12px;
+  background: #102129;
+  color: #edf4f0;
+}
+.summary-dialog::backdrop { background: rgb(4 11 15 / 85%) }
+.summary-dialog .summary-image {
+  width: min(1240px, calc(100vw - 36px), calc((100dvh - 84px) * var(--summary-width-per-height)));
+}
+.summary-tools { display: flex; align-items: center; justify-content: space-between; gap: 6px }
+.summary-tools button {
+  border: 0;
+  padding: 6px 10px;
+  border-radius: 4px;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+}
+.summary-tools button:hover, .summary-tools button:focus-visible { background: #253c45 }
+.summary-tools span { color: #bdcecd; padding-left: 10px; font-size: 13px }
+.summary-map { position: relative }
+.summary-chapter, .summary-topic { position: absolute; border-radius: 5px }
+.summary-map a:hover, .summary-map a:focus-visible { outline: 2px solid #9bd6bf; outline-offset: -2px; background: #9bd6bf0d }
+.chapter-fundamentals { inset: 19% 72% 37% 1% }
+.chapter-architecture { inset: 19% 1% 58% 65.5% }
+.chapter-learning { inset: 65% 0 20% }
+.summary-topic { top: 80%; bottom: 2% }
+.topic-objectives { left: 1%; right: 79% }
+.topic-optimization { left: 21%; right: 58% }
+.topic-development { left: 42%; right: 38% }
+.topic-theories { left: 62%; right: 17.5% }
+.topic-principles { left: 82.5%; right: 0 }
+.chapter-special-topics { inset: 43% 1% 36% 65.5% }
+@media (max-width: 900px) and (orientation: portrait) {
+  .chapter-fundamentals { inset: 14% 1% 63% 48% }
+  .chapter-architecture { inset: 37% 1% 48% }
+  .chapter-learning { inset: 52% 0 33% }
+  .topic-objectives { inset: 67% 51% 28% 2% }
+  .topic-optimization { inset: 67% 2% 28% 49% }
+  .topic-development { inset: 72% 51% 23% 2% }
+  .topic-theories { inset: 72% 2% 23% 49% }
+  .topic-principles { inset: 77% 51% 17% 2% }
+  .chapter-special-topics { inset: 84% 1% 0 }
+  .atlas-summary { --summary-ratio: 420 / 620; --summary-width-per-height: .6774 }
+  .summary-open { width: min(100%, calc((100svh - 264px) * var(--summary-width-per-height))) }
+  .summary-dialog { max-width: 100vw; padding: 4px }
+  .summary-dialog .summary-image {
+    width: min(calc(100vw - 12px), calc((100dvh - 84px) * var(--summary-width-per-height)));
+  }
+}
+@media (max-width: 720px) {
+  body:has(.atlas-summary) .site-header .brand { flex: 1; min-width: 0; white-space: normal }
+}
