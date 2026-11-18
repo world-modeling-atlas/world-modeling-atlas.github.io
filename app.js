@@ -175,47 +175,12 @@ async function article(id, token) {
 }
 
 // ---- about, export, search ---------------------------------------------------------------------
-let homeFigure;
-function loadHomeFigure() {
-  homeFigure ||= Promise.all([
-    fetch('assets/home-overview.svg').then(r => r.ok ? r.text() : '').catch(() => ''),
-    fetch('assets/world/credits.json').then(r => r.ok ? r.json() : {}).catch(() => ({}))]);
-  homeFigure.then(([svg, credits]) => {
-    const el = $('#home-figure');
-    if (!el) return;
-    if (!svg) { el.remove(); return; }
-    const labels = {egocentric: 'First-person view', hearing: 'Hearing', touch: 'Touch', proprioception: 'Proprioception', interoception: 'Interoception'};
-    const credit = Object.entries(credits).map(([k, c]) => `${esc(labels[k] || k)}: <a href="${esc(c.page)}" target="_blank" rel="noopener">${esc(c.artist.replace(/^https?:\/\/\S+\s*/, '').replace(/^username:/, ''))}</a>, ${c.licenseUrl ? `<a href="${esc(c.licenseUrl)}" target="_blank" rel="noopener">${esc(c.license)}</a>` : esc(c.license)}`).join('; ');
-    el.innerHTML = svg + '<a class="home-figure-full" href="assets/home-overview.svg" target="_blank" rel="noopener">Open the figure full size</a>' +
-      (credit ? `<p class="home-figure-credit">Photographs from Wikimedia Commons (artist, licence). ${credit}.</p>` : '');
-  });
-}
-// Chapter figures shown under the overview on the Home page, in atlas order (drawn by scripts/fig_*.py).
-const CHAPTER_FIGURES = [
-  ['fig-fundamentals', 'The Fundamentals'],
-  ['fig-architecture', 'Systems-Level Architecture and Dynamics'],
-  ['fig-development', 'Data and Skill Progression'],
-  ['fig-theories', 'Theories of Cognitive Development'],
-];
-const chapterFigures = {};
-function loadChapterFigures() {
-  for (const [name] of CHAPTER_FIGURES) {
-    chapterFigures[name] ||= fetch(`assets/${name}.svg`).then(r => r.ok ? r.text() : '').catch(() => '');
-    chapterFigures[name].then(svg => {
-      const el = document.getElementById(name);
-      if (!el) return;
-      if (!svg) { el.remove(); return; }
-      el.innerHTML = svg + `<a class="home-figure-full" href="assets/${name}.svg" target="_blank" rel="noopener">Open the figure full size</a>`;
-    });
-  }
-}
 function summaryFigure() {
-  const image = '<img class="summary-image" src="assets/atlas-summary.svg?v=2" alt="Atlas overview. The fundamentals connect cells and synapses to neural representations. Architecture links perception, memory and action. Learning covers objectives, optimization, development, cognitive theories and principles. Special topics include intelligence, personality and consciousness.">';
+  const image = '<img class="summary-image" src="assets/atlas-summary.svg?v=3" alt="Atlas overview. The fundamentals connect cells and synapses to neural representations. Architecture links perception, memory and action. Learning covers objectives, optimization, development, cognitive theories and principles.">';
   const chapters = [
     ['fundamentals', 'The fundamentals'],
     ['architecture', 'Architecture and dynamics'],
     ['learning', 'Learning'],
-    ['special-topics', 'Special topics'],
   ];
   const links = chapters.map(([id, title]) =>
     `<a class="summary-chapter chapter-${id}" href="#/chapter/${id}" aria-label="Open ${title}"></a>`).join('');
@@ -245,14 +210,8 @@ function bindSummaryFigure() {
 function about() {
   navRender();
   document.title = SITE;
-  const fig = ([name, title]) => `<figure class="home-figure" id="${name}" aria-label="${esc(title)}"></figure>`;
-  const overview = '<figure class="home-figure" id="home-figure" aria-label="Objectives and Optimization Architecture"></figure>';
-  // Fundamentals and Architecture first, then the overview (objectives and optimization), then the rest.
-  const chapters = CHAPTER_FIGURES.slice(0, 2).map(fig).join('') + overview + CHAPTER_FIGURES.slice(2).map(fig).join('');
-  main.innerHTML = `${tabs('about')}<div class="content-body">${summaryFigure()}<p class="home-intro">This is a live document that describes the brain as an ML system. It assumes a basic understanding of neuroscience. It is a work in progress, but much of its content is complete (especially the <a href="#/chapter/learning">Learning</a> section, which is likely the most interesting and far-reaching of all).</p>${chapters}<p class="placeholder">[Placeholder: guide readers through how to read these notes.]</p><p class="placeholder">[Placeholder: describe the methodology.]</p></div>`;
+  main.innerHTML = `${tabs('about')}<div class="content-body">${summaryFigure()}<p class="home-intro">This is a live document that describes the brain as an ML system. It assumes a basic understanding of neuroscience. It is a work in progress, but much of its content is complete (especially the <a href="#/chapter/learning">Learning</a> section, which is likely the most interesting and far-reaching of all).</p><p class="placeholder">[Placeholder: guide readers through how to read these notes.]</p><p class="placeholder">[Placeholder: describe the methodology.]</p></div>`;
   bindSummaryFigure();
-  loadHomeFigure();
-  loadChapterFigures();
 }
 function contribute() {
   navRender();

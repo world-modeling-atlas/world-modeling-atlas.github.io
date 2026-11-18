@@ -112,7 +112,7 @@ html[data-theme=dark] .uc-note{background:#2a2310;color:#f0dfa6}
 .summary-chapter, .summary-topic { position: absolute; border-radius: 5px }
 .summary-map a:hover, .summary-map a:focus-visible { outline: 2px solid #9bd6bf; outline-offset: -2px; background: #9bd6bf0d }
 .chapter-fundamentals { inset: 19% 72% 37% 1% }
-.chapter-architecture { inset: 19% 1% 58% 65.5% }
+.chapter-architecture { inset: 29% 1% 43% 65.5% }
 .chapter-learning { inset: 65% 0 20% }
 .summary-topic { top: 80%; bottom: 2% }
 .topic-objectives { left: 1%; right: 79% }
@@ -120,18 +120,16 @@ html[data-theme=dark] .uc-note{background:#2a2310;color:#f0dfa6}
 .topic-development { left: 42%; right: 38% }
 .topic-theories { left: 62%; right: 17.5% }
 .topic-principles { left: 82.5%; right: 0 }
-.chapter-special-topics { inset: 43% 1% 36% 65.5% }
 @media (max-width: 900px) and (orientation: portrait) {
-  .chapter-fundamentals { inset: 14% 1% 63% 48% }
-  .chapter-architecture { inset: 37% 1% 48% }
-  .chapter-learning { inset: 52% 0 33% }
-  .topic-objectives { inset: 67% 51% 28% 2% }
-  .topic-optimization { inset: 67% 2% 28% 49% }
-  .topic-development { inset: 72% 51% 23% 2% }
-  .topic-theories { inset: 72% 2% 23% 49% }
-  .topic-principles { inset: 77% 51% 17% 2% }
-  .chapter-special-topics { inset: 84% 1% 0 }
-  .atlas-summary { --summary-ratio: 420 / 620; --summary-width-per-height: .6774 }
+  .chapter-fundamentals { inset: 16.76% 1% 55.71% 48% }
+  .chapter-architecture { inset: 44.29% 1% 37.76% }
+  .chapter-learning { inset: 62.24% 0 19.81% }
+  .topic-objectives { inset: 80.19% 51% 13.82% 2% }
+  .topic-optimization { inset: 80.19% 2% 13.82% 49% }
+  .topic-development { inset: 86.18% 51% 7.84% 2% }
+  .topic-theories { inset: 86.18% 2% 7.84% 49% }
+  .topic-principles { inset: 92.16% 51% 0.66% 2% }
+  .atlas-summary { --summary-ratio: 420 / 518; --summary-width-per-height: .8108 }
   .summary-open { width: min(100%, calc((100svh - 264px) * var(--summary-width-per-height))) }
   .summary-dialog { max-width: 100vw; padding: 4px }
   .summary-dialog .summary-image {
