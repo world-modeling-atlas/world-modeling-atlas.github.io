@@ -261,6 +261,7 @@ async function exportAtlas(print) {
       fragment.querySelectorAll('[id]').forEach(el => el.id = prefix + el.id);
       fragment.querySelectorAll('img').forEach(img => { img.src = images[img.getAttribute('src')] || img.src; });
       fragment.querySelectorAll('a.figure-image').forEach(a => a.removeAttribute('href'));
+      fragment.querySelectorAll('details').forEach(d => d.open = true);   // exports show every subsection and original caption
       fragment.querySelectorAll('a[href^="#"]').forEach(a => {
         const href = a.getAttribute('href');
         if (!href.startsWith('#/')) return a.setAttribute('href', '#' + prefix + href.slice(1));

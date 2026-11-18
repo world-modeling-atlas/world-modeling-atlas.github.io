@@ -18,14 +18,38 @@
 .domain-grid td a,.domain-grid th a{text-decoration:none;display:block}.domain-grid td a:hover,.domain-grid th a:hover{text-decoration:underline}
 .article-body .cell-link{display:block;color:inherit;text-decoration:underline dotted #8a9099;text-underline-offset:3px}.article-body .cell-link:hover{text-decoration:underline solid}
 .export-option{display:flex;align-items:center;gap:6px;font-weight:400!important;min-height:38px}
-/* figures: the paper's figure, a caption written for this page, then the original caption in quotes */
-.paper-figure{width:min(100%,640px);padding:10px;border:1px solid #c8ccd1;background:#f8f9fa;margin:22px 0}
-.paper-figure .figure-image{display:block;background:#fff;text-decoration:none}.paper-figure img{display:block;max-width:100%;max-height:560px;object-fit:contain;margin:auto}
-.paper-figure figcaption{font:13px/1.5 var(--sans);padding:10px 2px 1px}.figure-summary{margin:0 0 9px;font-size:14px;line-height:1.5}
-.source-caption{margin:0 0 8px;padding:0 0 0 10px;border-left:3px solid #c8ccd1;color:var(--muted);font-size:12px;line-height:1.5}.source-caption p{margin:0}
-.paper-figure .credit{margin:0;font-size:11px;color:var(--muted)}
-.figure-row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;align-items:start;margin:22px 0}.figure-row .paper-figure{width:100%;min-width:0;margin:0}
-@media(max-width:720px){.paper-figure{padding:6px}.figure-row{gap:8px}.figure-row .figure-summary{font-size:12px}.figure-row .source-caption{font-size:10px}.figure-row .credit{font-size:9px}}
+/* Reading column and figures (an online-atlas layout).
+   Prose is held to a comfortable measure (about 75-80 characters); figures break out to the full
+   article width and are shown at up to their native resolution. Two figures sit side by side only
+   when each gets at least ~520px; otherwise they stack. Tall figures put their caption alongside. */
+.article-body{--measure:580px;font-size:16.5px;line-height:1.65;container-type:inline-size}
+.article-body :is(p,ul,ol,h3,.hatnote,.domain-trail,.map-note){max-width:var(--measure)}
+.article-body :is(ul,ol) :is(ul,ol,p){max-width:none}
+.references,.see-also,.subpages{max-width:760px}
+.paper-figure{width:100%;box-sizing:border-box;padding:10px;border:1px solid #c8ccd1;background:#f8f9fa;margin:28px 0}
+.paper-figure .figure-image{display:block;background:#fff;text-decoration:none;cursor:zoom-in}
+.paper-figure img{display:block;width:auto;height:auto;max-width:100%;max-height:85vh;object-fit:contain;margin:auto}
+.paper-figure figcaption{font:13px/1.5 var(--sans);padding:10px 2px 1px;max-width:var(--measure)}
+.article-body .figure-summary{margin:0 0 7px;font-size:14.5px;line-height:1.55}
+.source-details{margin:0 0 7px}
+.source-details>summary{display:inline-flex;gap:6px;cursor:pointer;list-style:none;color:var(--muted);font-size:12px}
+.source-details>summary::-webkit-details-marker{display:none}
+.source-details>summary::before{content:'▸'}.source-details[open]>summary::before{content:'▾'}
+.source-details>summary:hover{color:var(--ink);text-decoration:underline}
+.source-caption{margin:6px 0 4px;padding:0 0 0 10px;border-left:3px solid #c8ccd1;color:var(--muted);font-size:12.5px;line-height:1.5}.source-caption p{margin:0}
+.paper-figure .credit{margin:0;font-size:11.5px;color:var(--muted)}
+.figure-row{display:grid;grid-template-columns:minmax(0,1fr);gap:28px;margin:28px 0}
+.figure-row .paper-figure{margin:0}
+@container (min-width:640px){
+  .paper-figure.fig-tall{display:grid;grid-template-columns:minmax(0,65%) minmax(0,1fr);column-gap:20px;align-items:start}
+  .paper-figure.fig-tall figcaption{padding-top:0}
+}
+@container (min-width:1060px){
+  .figure-row{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;align-items:start}
+  .figure-row .paper-figure.fig-tall{display:block}
+  .figure-row .paper-figure.fig-tall figcaption{padding-top:10px}
+}
+@media(max-width:720px){.article-body{font-size:16px}.paper-figure{padding:6px}.paper-figure img{max-height:none}}
 
 /* home overview figure */
 .content-body:has(>.home-figure){max-width:1100px}.home-figure{margin:0 0 30px;padding:0;width:100%}.home-figure-full{display:block;margin:8px 2px 0;font-size:12px;color:var(--muted)}.home-figure svg{display:block;width:100%;height:auto;border-radius:10px;background:#0b141c}
