@@ -176,7 +176,7 @@ async function article(id, token) {
 
 // ---- about, export, search ---------------------------------------------------------------------
 function summaryFigure() {
-  const image = '<img class="summary-image" src="assets/atlas-summary.svg?v=3" alt="Atlas overview. The fundamentals connect cells and synapses to neural representations. Architecture links perception, memory and action. Learning covers objectives, optimization, development, cognitive theories and principles.">';
+  const image = '<img class="summary-image" src="assets/atlas-summary.svg?v=4" alt="Atlas overview. The fundamentals connect cells and synapses to neural representations. Architecture links perception, memory and action. Learning covers objectives, optimization, how training data changes across development, and theories of cognitive change.">';
   const chapters = [
     ['fundamentals', 'The fundamentals'],
     ['architecture', 'Architecture and dynamics'],
@@ -186,7 +186,7 @@ function summaryFigure() {
     `<a class="summary-chapter chapter-${id}" href="#/chapter/${id}" aria-label="Open ${title}"></a>`).join('');
   const learningTopics = [
     ['objectives', 'Objectives'], ['optimization', 'Optimization'],
-    ['development', 'Development'], ['theories', 'Cognitive theories'], ['principles', 'Learning principles'],
+    ['development', 'Development'], ['theories', 'Cognitive theories'],
   ];
   const topicLinks = learningTopics.map(([id, title]) =>
     `<a class="summary-topic topic-${id}" href="#/group/${id}" aria-label="Open ${title}"></a>`).join('');

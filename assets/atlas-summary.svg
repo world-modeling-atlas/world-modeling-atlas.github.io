@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" aria-labelledby="title description" role="img">
   <title id="title">World modeling in the brain — Atlas overview</title>
-  <desc id="description">Three chapters connect the scale of neurons and synapses to brain architecture, learning over a lifetime. Learning covers objectives, optimization in four brain systems, development, cognitive theories and learning principles.</desc>
+  <desc id="description">Three chapters connect the scale of neurons and synapses to brain architecture, learning over a lifetime. Learning covers objectives, optimization in four brain systems, training data across development and theories of cognitive change.</desc>
   <style>
     text { font-family: Arial, sans-serif; fill: #c8d6d7 }
     .display, .chapter { font-family: Georgia, 'Times New Roman', serif; fill: #f2f2e8 }
@@ -44,13 +44,9 @@
     <g id="theories" fill="none" stroke="currentColor" stroke-width="1.7">
       <path d="m16 3 14 7-14 7-14-7Zm-13 13 13 7 13-7M3 22l13 7 13-7"/>
     </g>
-    <g id="principles" fill="none" stroke="currentColor" stroke-width="1.7">
-      <path d="M16 26V14m0 1L6 6m10 9 10-9M16 18l-9 3"/>
-      <g fill="#142c32"><circle cx="16" cy="26" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="26" cy="6" r="3"/><circle cx="7" cy="21" r="2.5"/></g>
-    </g>
   </defs>
   <rect width="100%" height="100%" fill="#11232b"/>
-  <svg class="wide" width="100%" height="100%" viewBox="0 0 1120 594">
+  <svg class="wide" width="100%" height="100%" viewBox="0 0 1120 628">
     <text x="32" y="34" class="kicker mint">ATLAS OVERVIEW</text>
     <text x="30" y="87" class="display">World modeling <tspan font-style="italic">in the brain</tspan></text>
     <path class="rule" d="M32 108H1088"/>
@@ -58,49 +54,44 @@
     <use href="#neuron" transform="translate(31 128)"/>
     <text x="32" y="216" class="kicker mint">CHAPTER 1</text>
     <text x="30" y="252" class="chapter">The fundamentals</text>
-    <text x="32" y="282" class="copy">Neurons and synapses carry signals.</text>
-    <text x="32" y="307" class="copy">Plasticity shapes what they encode.</text>
+    <text x="32" y="282" class="note">Neurons encode patterns of activity.</text><text x="32" y="304" class="note">Experience changes synaptic strength,</text><text x="32" y="326" class="note">and neuromodulators influence when</text><text x="32" y="348" class="note">those connections change.</text>
     <g transform="translate(0 65)">
     <text x="750" y="144" class="kicker blue">CHAPTER 2</text>
     <text x="748" y="181" class="chapter">Architecture &amp; dynamics</text>
-    <text x="750" y="211" class="copy">Circuits link perception and memory</text>
-    <text x="750" y="235" class="copy">to language, control and action.</text></g>
-    <rect x="0" y="386" width="1120" height="208" fill="#162d33"/>
+    <text x="750" y="211" class="note">Sensory circuits encode incoming signals.</text><text x="750" y="233" class="note">Memory systems retrieve past experience,</text><text x="750" y="255" class="note">while language and control networks use</text><text x="750" y="277" class="note">that information to guide decisions.</text></g>
+    <rect x="0" y="386" width="1120" height="242" fill="#162d33"/>
     <path class="rule" d="M0 386H1120"/>
     <text x="32" y="420" class="kicker peach">CHAPTER 3</text>
     <text x="30" y="461" class="chapter" style="font-size:38px">Learning</text>
     <text x="208" y="454" class="copy">How does experience build a world model over a lifetime?</text>
     <g transform="translate(32 476)" color="#efb38d">
-      <g><use href="#objectives"/><text y="58" class="topic">Objectives</text><text y="84" class="note">Risk, curiosity and control</text></g>
-      <g transform="translate(215)"><use href="#optimization"/><text y="58" class="topic">Optimization</text><text y="84" class="note">Four brain learning systems</text></g>
-      <g transform="translate(446)"><use href="#development"/><text y="58" class="topic">Development</text><text y="84" class="note">From infancy to adulthood</text></g>
-      <g transform="translate(672)"><use href="#theories"/><text y="58" class="topic">Cognitive theories</text><text y="84" class="note">How reasoning changes</text></g>
-      <g transform="translate(897)"><use href="#principles"/><text y="58" class="topic">Principles</text><text y="84" class="note">Curriculum and transfer</text></g>
+      <g><use href="#objectives"/><text y="58" class="topic">Objectives</text><text x="0" y="83" class="note">Avoiding risk, resolving uncertainty</text><text x="0" y="102" class="note">and gaining control shape which</text><text x="0" y="121" class="note">experiences a learner seeks.</text></g>
+      <g transform="translate(270)"><use href="#optimization"/><text y="58" class="topic">Optimization</text><text x="0" y="83" class="note">Cortex learns predictions, the</text><text x="0" y="102" class="note">hippocampus stores episodes, basal</text><text x="0" y="121" class="note">ganglia select actions and the</text><text x="0" y="140" class="note">cerebellum calibrates movements.</text></g>
+      <g transform="translate(540)"><use href="#development"/><text y="58" class="topic">Development</text><text x="0" y="83" class="note">Play, exploration and social contact</text><text x="0" y="102" class="note">supply training data. As children gain</text><text x="0" y="121" class="note">skills, they change what they can</text><text x="0" y="140" class="note">observe and practice next.</text></g>
+      <g transform="translate(810)"><use href="#theories"/><text y="58" class="topic">Cognitive theories</text><text x="0" y="83" class="note">Compare accounts of how children</text><text x="0" y="102" class="note">form concepts, coordinate ideas</text><text x="0" y="121" class="note">and reason about abstract problems.</text></g>
     </g>
   </svg>
-  <svg class="narrow" width="100%" height="100%" viewBox="0 0 420 518">
+  <svg class="narrow" width="100%" height="100%" viewBox="0 0 420 645">
     <text x="20" y="28" class="kicker mint">ATLAS OVERVIEW</text>
     <text x="18" y="65" class="display" style="font-size:33px">World modeling <tspan font-style="italic">in the brain</tspan></text>
     <path class="rule" d="M20 82h380"/>
     <use href="#brain" transform="translate(1 102) scale(.47)"/>
     <text x="211" y="110" class="kicker mint">CHAPTER 1</text>
     <text x="210" y="138" class="chapter" style="font-size:25px">The fundamentals</text>
-    <text x="211" y="162" class="note">Cells, synapses, plasticity</text>
-    <text x="211" y="183" class="note">and neural representations.</text>
+    <text x="211" y="162" class="note">Neurons encode signals.</text><text x="211" y="182" class="note">Experience changes which</text><text x="211" y="202" class="note">synapses carry them and</text><text x="211" y="222" class="note">how strongly they respond.</text>
     <text x="20" y="251" class="kicker blue">CHAPTER 2</text>
     <text x="19" y="281" class="chapter" style="font-size:26px">Architecture &amp; dynamics</text>
-    <text x="20" y="306" class="note">Circuits link perception and memory to action.</text>
-    <rect y="324" width="420" height="194" fill="#162d33"/>
-    <path class="rule" d="M0 324h420M0 518h420"/>
+    <text x="20" y="306" class="note">Sensory inputs and retrieved memories guide action.</text>
+    <rect y="324" width="420" height="321" fill="#162d33"/>
+    <path class="rule" d="M0 324h420"/>
     <text x="20" y="351" class="kicker peach">CHAPTER 3</text>
     <text x="19" y="380" class="chapter" style="font-size:27px">Learning</text>
     <text x="20" y="405" class="note">How does experience build a world model?</text>
     <g color="#efb38d" class="copy">
-      <g transform="translate(20 420)"><use href="#objectives" transform="scale(.68)"/><text x="29" y="17">Objectives</text></g>
-      <g transform="translate(210 420)"><use href="#optimization" transform="scale(.68)"/><text x="29" y="17">Optimization</text></g>
-      <g transform="translate(20 451)"><use href="#development" transform="scale(.68)"/><text x="29" y="17">Development</text></g>
-      <g transform="translate(210 451)"><use href="#theories" transform="scale(.68)"/><text x="29" y="17">Cognitive theories</text></g>
-      <g transform="translate(20 482)"><use href="#principles" transform="scale(.68)"/><text x="29" y="17">Learning principles</text></g>
+      <g transform="translate(20 420)"><use href="#objectives" transform="scale(.68)"/><text x="29" y="17">Objectives</text><text x="0" y="44" class="note">Risk, curiosity and control</text><text x="0" y="64" class="note">shape what we seek.</text></g>
+      <g transform="translate(210 420)"><use href="#optimization" transform="scale(.68)"/><text x="29" y="17">Optimization</text><text x="0" y="44" class="note">Four brain systems learn</text><text x="0" y="64" class="note">from different signals.</text></g>
+      <g transform="translate(20 525)"><use href="#development" transform="scale(.68)"/><text x="29" y="17">Development</text><text x="0" y="44" class="note">Play and social contact</text><text x="0" y="64" class="note">supply training data as</text><text x="0" y="84" class="note">new skills emerge.</text></g>
+      <g transform="translate(210 525)"><use href="#theories" transform="scale(.68)"/><text x="29" y="17">Cognitive theories</text><text x="0" y="44" class="note">How children form</text><text x="0" y="64" class="note">concepts and learn to</text><text x="0" y="84" class="note">reason abstractly.</text></g>
     </g>
   </svg>
 </svg>
