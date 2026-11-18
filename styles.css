@@ -60,8 +60,8 @@ html[data-theme=dark] .uc-note{background:#2a2310;color:#f0dfa6}
 
 /* The compact overview has landscape and portrait compositions in the same SVG. */
 .atlas-summary {
-  --summary-ratio: 1120 / 628;
-  --summary-width-per-height: 1.7834;
+  --summary-ratio: 1120 / 731;
+  --summary-width-per-height: 1.5321;
   margin: 0 0 20px;
 }
 .summary-open {
@@ -111,23 +111,23 @@ html[data-theme=dark] .uc-note{background:#2a2310;color:#f0dfa6}
 .summary-map { position: relative }
 .summary-chapter, .summary-topic { position: absolute; border-radius: 5px }
 .summary-map a:hover, .summary-map a:focus-visible { outline: 2px solid #9bd6bf; outline-offset: -2px; background: #9bd6bf0d }
-.chapter-fundamentals { inset: 17% 71% 39% 1% }
-.chapter-architecture { inset: 27% 1% 39% 65.5% }
-.chapter-learning { inset: 61.5% 0 24% }
-.summary-topic { top: 76%; bottom: 2% }
-.topic-objectives { left: 1%; right: 74% }
-.topic-optimization { left: 26%; right: 50% }
-.topic-development { left: 50%; right: 26% }
-.topic-theories { left: 74%; right: 0 }
+.chapter-fundamentals { inset: 13% 67% 48% 1% }
+.chapter-architecture { inset: 21% 1% 48% 68% }
+.chapter-learning { inset: 54% 0 33% }
+.summary-topic { top: 67%; bottom: 2% }
+.topic-objectives { left: 1%; right: 75% }
+.topic-optimization { left: 25%; right: 50.5% }
+.topic-development { left: 49.5%; right: 27.5% }
+.topic-theories { left: 72.5%; right: 1% }
 @media (max-width: 900px) and (orientation: portrait) {
-  .chapter-fundamentals { inset: 14% 1% 64% 48% }
-  .chapter-architecture { inset: 36% 1% 50% }
-  .chapter-learning { inset: 50% 0 35% }
-  .topic-objectives { inset: 65% 51% 19% 2% }
-  .topic-optimization { inset: 65% 2% 19% 49% }
-  .topic-development { inset: 81% 51% 1% 2% }
-  .topic-theories { inset: 81% 2% 1% 49% }
-  .atlas-summary { --summary-ratio: 420 / 645; --summary-width-per-height: .6511 }
+  .chapter-fundamentals { inset: 12.5% 2% 65.5% 49% }
+  .chapter-architecture { inset: 37% 2% 47.5% }
+  .chapter-learning { inset: 54.5% 0 33% }
+  .topic-objectives { inset: 67% 51% 18% 2% }
+  .topic-optimization { inset: 67% 2% 18% 50% }
+  .topic-development { inset: 83.5% 51% 1% 2% }
+  .topic-theories { inset: 83.5% 2% 1% 50% }
+  .atlas-summary { --summary-ratio: 420 / 601; --summary-width-per-height: .6988 }
   .summary-open { width: min(100%, calc((100svh - 264px) * var(--summary-width-per-height))) }
   .summary-dialog { max-width: 100vw; padding: 4px }
   .summary-dialog .summary-image {
